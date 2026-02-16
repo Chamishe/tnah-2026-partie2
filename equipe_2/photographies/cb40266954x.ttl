@@ -1,0 +1,53 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns2: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns3: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns4: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns5: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns6: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns7: <http://rdvocab.info/Elements/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266954x> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-05-28" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266954x#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266954x#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns1:FRBNF 40266954 ;
+    dcterms:date "1901/1924" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17 x 22,2 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb12085413r>,
+        <http://data.bnf.fr/ark:/12148/cb124214644> ;
+    dcterms:title "Ancien hôtel du Comte d'Evreux - Palais de l'Elysée : Fg St Honoré, [photographie]" ;
+    ns5:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b10517568q>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10517570j> ;
+    ns5:P30139 <http://data.bnf.fr/ark:/12148/cb40266954x#Expression> ;
+    ns5:P30279 "France" ;
+    ns4:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (11)-BOITE FOL B, exemplaire n°1. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns7:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (11)-BOITE FOL B, exemplaire n°1. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns2:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b10517568q>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10517570j> ;
+    ns2:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266954x#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266954x> .
+
+<http://data.bnf.fr/ark:/12148/cb40266954x#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns6:r4030 <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns6:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns3:col <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns3:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about>,
+        <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb12085413r>,
+        <http://data.bnf.fr/ark:/12148/cb124214644> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266954x#frbr:Expression> .
+

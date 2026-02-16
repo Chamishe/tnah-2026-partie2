@@ -1,0 +1,53 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns2: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns3: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns4: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns5: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns6: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns7: <http://rdvocab.info/Elements/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266742c> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-06-10" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266742c#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266742c#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns4:FRBNF 40266742 ;
+    dcterms:date "1900/1901" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 16,5 x 21,5 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb16689262z>,
+        <http://data.bnf.fr/ark:/12148/cb166892728> ;
+    dcterms:title "Eglise de Charonne : [photographie]" ;
+    ns1:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b10519958h>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b105199644> ;
+    ns1:P30139 <http://data.bnf.fr/ark:/12148/cb40266742c#Expression> ;
+    ns1:P30279 "France" ;
+    ns2:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (12)-BOITE FOL B, exemplaire n°1. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3" ;
+    ns7:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (12)-BOITE FOL B, exemplaire n°1. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3" ;
+    ns5:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b10519958h>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b105199644> ;
+    ns5:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266742c#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266742c> .
+
+<http://data.bnf.fr/ark:/12148/cb40266742c#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns3:r4030 <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns3:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns6:col <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns6:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about>,
+        <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb16689262z>,
+        <http://data.bnf.fr/ark:/12148/cb166892728> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266742c#frbr:Expression> .
+

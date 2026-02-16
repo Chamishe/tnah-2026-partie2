@@ -1,0 +1,46 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns2: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns3: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns4: <http://rdvocab.info/Elements/> .
+@prefix ns5: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns6: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns7: <http://id.loc.gov/vocabulary/relators/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266953k> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2025-08-12" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266953k#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266953k#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns3:FRBNF 40266953 ;
+    ns3:firstYear 1901 ;
+    dcterms:date "1901" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 16,9 x 21,3 cm (épr.)" ;
+    dcterms:publisher ", [1901]" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb124214644> ;
+    dcterms:title "Palais de l'Elysée : Ancien hôtel du Comte d'Evreux - 1718, Fg St Honoré, [photographie]" ;
+    ns6:P30011 <http://data.bnf.fr/date/1901/> ;
+    ns6:P30139 <http://data.bnf.fr/ark:/12148/cb40266953k#Expression> ;
+    ns5:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre" ;
+    ns4:dateOfPublicationManifestation <http://data.bnf.fr/date/1901/> ;
+    ns4:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre" ;
+    ns1:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266953k#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266953k> .
+
+<http://data.bnf.fr/ark:/12148/cb40266953k#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns2:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns7:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb124214644> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266953k#frbr:Expression> .
+

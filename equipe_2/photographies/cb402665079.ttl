@@ -1,0 +1,53 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns2: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns3: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns4: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns5: <http://rdvocab.info/Elements/> .
+@prefix ns6: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns7: <http://rdaregistry.info/Elements/u/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb402665079> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-06-07" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb402665079#about> .
+
+<http://data.bnf.fr/ark:/12148/cb402665079#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns2:FRBNF 40266507 ;
+    dcterms:date "1899/1900" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 20,7 x 17 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11977987c>,
+        <http://data.bnf.fr/ark:/12148/cb120424763>,
+        <http://data.bnf.fr/ark:/12148/cb16688949f> ;
+    dcterms:title "Rue de La Barre - Montmartre - Août 1899 : [photographie]" ;
+    ns1:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105198495> ;
+    ns1:P30139 <http://data.bnf.fr/ark:/12148/cb402665079#Expression> ;
+    ns1:P30279 "France" ;
+    ns7:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (12)-BOITE FOL B" ;
+    ns5:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (12)-BOITE FOL B" ;
+    ns6:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105198495> ;
+    ns6:expressionManifested <http://data.bnf.fr/ark:/12148/cb402665079#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb402665079> .
+
+<http://data.bnf.fr/ark:/12148/cb402665079#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns4:r4030 <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns4:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns3:col <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns3:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about>,
+        <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11977987c>,
+        <http://data.bnf.fr/ark:/12148/cb120424763>,
+        <http://data.bnf.fr/ark:/12148/cb16688949f> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb402665079#frbr:Expression> .
+

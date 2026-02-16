@@ -1,0 +1,59 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns2: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns3: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns4: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns5: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns6: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns7: <http://rdvocab.info/Elements/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40267135p> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2022-12-13" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40267135p#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40267135p#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns2:FRBNF 40267135 ;
+    dcterms:date "1900/1924" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17,5 x 22 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11932931q>,
+        <http://data.bnf.fr/ark:/12148/cb119540465>,
+        <http://data.bnf.fr/ark:/12148/cb119541004>,
+        <http://data.bnf.fr/ark:/12148/cb122351702>,
+        <http://data.bnf.fr/ark:/12148/cb16686476g> ;
+    dcterms:title "Cour des Rames : 27 A.ve des Gobelins, [photographie]" ;
+    ns1:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b10517778w>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10517782m> ;
+    ns1:P30139 <http://data.bnf.fr/ark:/12148/cb40267135p#Expression> ;
+    ns1:P30279 "France" ;
+    ns5:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (11)-BOITE FOL B. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns7:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (11)-BOITE FOL B. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns3:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b10517778w>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10517782m> ;
+    ns3:expressionManifested <http://data.bnf.fr/ark:/12148/cb40267135p#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40267135p> .
+
+<http://data.bnf.fr/ark:/12148/cb40267135p#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns4:r4030 <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns4:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns6:col <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns6:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about>,
+        <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11932931q>,
+        <http://data.bnf.fr/ark:/12148/cb119540465>,
+        <http://data.bnf.fr/ark:/12148/cb119541004>,
+        <http://data.bnf.fr/ark:/12148/cb122351702>,
+        <http://data.bnf.fr/ark:/12148/cb16686476g> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40267135p#frbr:Expression> .
+

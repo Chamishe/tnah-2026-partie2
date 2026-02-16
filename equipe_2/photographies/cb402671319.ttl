@@ -1,0 +1,56 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns2: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns3: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns4: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns5: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns6: <http://rdvocab.info/Elements/> .
+@prefix ns7: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb402671319> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-05-29" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb402671319#about> .
+
+<http://data.bnf.fr/ark:/12148/cb402671319#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns7:FRBNF 40267131 ;
+    dcterms:date "1900/1901" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 16,5 x 21 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119540465>,
+        <http://data.bnf.fr/ark:/12148/cb125129594#about>,
+        <http://data.bnf.fr/ark:/12148/cb15081916m>,
+        <http://data.bnf.fr/ark:/12148/cb16686272j> ;
+    dcterms:title "Hopital Trousseau - F.g S.t Antoine 110 : fondé en 1669 par la Reine Marie-Thérèse, [photographie]" ;
+    ns3:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b10517764p>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10517766k> ;
+    ns3:P30139 <http://data.bnf.fr/ark:/12148/cb402671319#Expression> ;
+    ns3:P30279 "France" ;
+    ns2:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (11)-BOITE FOL B, exemplaire n°1. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g.. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns6:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (11)-BOITE FOL B, exemplaire n°1. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g.. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns4:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b10517764p>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b10517766k> ;
+    ns4:expressionManifested <http://data.bnf.fr/ark:/12148/cb402671319#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb402671319> .
+
+<http://data.bnf.fr/ark:/12148/cb402671319#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns1:r4030 <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns1:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns5:col <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns5:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about>,
+        <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119540465>,
+        <http://data.bnf.fr/ark:/12148/cb15081916m>,
+        <http://data.bnf.fr/ark:/12148/cb16686272j> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb402671319#frbr:Expression> .
+

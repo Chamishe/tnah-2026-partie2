@@ -1,0 +1,46 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns2: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns3: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns4: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns5: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns6: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns7: <http://rdvocab.info/Elements/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266923n> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-05-28" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266923n#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266923n#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns5:FRBNF 40266923 ;
+    dcterms:date "1899/1901" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 16,6 x 21,5 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb15880675f> ;
+    dcterms:title "Hôtel François 1.er - Cours la Reine : Août 1899, [photographie]" ;
+    ns2:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105175945> ;
+    ns2:P30139 <http://data.bnf.fr/ark:/12148/cb40266923n#Expression> ;
+    ns2:P30279 "France" ;
+    ns1:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Num. de nég. coupé dans l'épr. en b. à dr." ;
+    ns7:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Num. de nég. coupé dans l'épr. en b. à dr." ;
+    ns6:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105175945> ;
+    ns6:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266923n#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266923n> .
+
+<http://data.bnf.fr/ark:/12148/cb40266923n#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns3:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns4:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb15880675f> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266923n#frbr:Expression> .
+

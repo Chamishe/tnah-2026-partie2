@@ -1,0 +1,48 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdvocab.info/Elements/> .
+@prefix ns2: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns3: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns4: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns5: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns6: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns7: <http://rdaregistry.info/Elements/m/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266626v> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-06-10" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266626v#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266626v#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns5:FRBNF 40266626 ;
+    dcterms:date "1900/1901" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17 x 21,2 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb15601308q>,
+        <http://data.bnf.fr/ark:/12148/cb16689030s> ;
+    dcterms:title "Montmartre - Place du Tertre et Rue Norvins : [photographie]" ;
+    ns7:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b10519837v> ;
+    ns7:P30139 <http://data.bnf.fr/ark:/12148/cb40266626v#Expression> ;
+    ns7:P30279 "France" ;
+    ns6:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns1:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns2:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b10519837v> ;
+    ns2:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266626v#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266626v> .
+
+<http://data.bnf.fr/ark:/12148/cb40266626v#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns3:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns4:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb15601308q>,
+        <http://data.bnf.fr/ark:/12148/cb16689030s> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266626v#frbr:Expression> .
+
