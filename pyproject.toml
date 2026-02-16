@@ -1,0 +1,8 @@
+[project]
+name = "tnah-2026-partie2"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "pyvis>=0.3.2",
+    "sparqlwrapper>=2.0.0",
+]

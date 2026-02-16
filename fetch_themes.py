@@ -214,3 +214,77 @@ def export_graph_to_html(graph: Graph, output_file: Path) -> None:
 # ----------------------------------------------------------------------------------------------------------------------------------------
 # --- D. POINT D'ENTRÉE DU SCRIPT
 # ----------------------------------------------------------------------------------------------------------------------------------------
+
+if __name__ == "__main__": # permet d'indiquer à l'interpréteur python que cette partie n'est à exécuter que lorsque l'on appelle le fichier comme un script
+    """
+    POINT D'ENTRÉE DU SCRIPT
+    Ce bloc orchestre l'enrichissement des données : il lit les fichiers locaux,
+    va chercher les informations manquantes à la BnF, et fusionne le tout.
+    """
+
+    # --- ÉTAPE 1 : RÉGLAGES ET CHEMINS (CONFIGURATION)
+    base_dir = Path(__file__).parent
+    input_dir = base_dir / "photographies" # dossier contenant les fichiers d'origine
+    output_dir = base_dir / "photographies_avec_themes" # dossier où les fichiers créés par le script seront envoyés
+
+    # Sécurité : limiter le nombre de requêtes pour les tests (None pour tout traiter)
+    graph_processing_limit = 1
+
+    # --- ÉTAPE 2 : PRÉPARATION DES OUTILS (INITIALISATION)
+
+    # On s'assure que le dossier de sortie existe pour ne pas faire planter le script
+    os.makedirs(output_dir, exist_ok=True)
+
+    # Connexion au point d'accès SPARQL de la BnF
+    databnf = setup_bnf_sparql_wrapper()
+
+    # On récupère la liste de tous les fichiers .ttl à traiter
+    turtle_files = list(input_dir.glob("*.ttl")) # 'glob' permet de faire une regex pour récupérer tous les fichiers avec l'extension '.ttl'
+
+    # Application de la limite si elle est définie
+    if graph_processing_limit: # si une limite est annoncée dans 'graph_processing_limit' (ligne 231)
+        turtle_files = turtle_files[:graph_processing_limit] # [chiffre:chiffre] permet de découper une liste. On s'en sert ici pour couper la liste en partant de 0 à la limite annoncée
+
+    print(f"{len(turtle_files)} fichiers Turtle à traiter dans {input_dir}.") # print pour vérifier combien de fichiers seront traités
+
+    # --- ÉTAPE 3 : BOUCLE PRINCIPALE DE TRAITEMENT
+
+    for turtle_photo_file in turtle_files: # boucle permettant de lancer l'ensemble
+
+        print(f"Début de l'enrichissement pour : {turtle_photo_file.name}") # print d'étape pour indiquer que le code commence à s'exécuter (permet de mesurer la progression)
+
+        try: # essaie d'exécuter le code
+            
+            # 1. IMPORT : On transforme le fichier texte en un graphe RDF manipulable
+            photo_graph = import_turtle_file(turtle_photo_file)
+
+            # 2. IDENTIFICATION : On trouve les ressources du graphe qui
+            # correspondent aux thèmes Rameau associés à la photo
+            rameau_themes = get_rameau_themes(photo_graph)
+
+            # 3. RÉCUPÉRATION : On demande à la BnF les labels textuels de ces thèmes Rameau.
+            rameau_labels_graph = fetch_themes_labels(rameau_themes, databnf)
+
+            # 4. FUSION : On injecte les labels récupérés dans le graphe de la photo.
+            enriched_photo_graph = merge_labels_into_photo_graph(
+                photo_graph, rameau_labels_graph
+            )
+
+            # 5. CONTRÔLE : On affiche un résumé textuel dans la console
+            report = build_summary_report(enriched_photo_graph)
+            print(report)
+
+            # 6. EXPORT : On sauvegarde le résultat final sur le disque
+            enriched_photo_file = output_dir / turtle_photo_file.name
+            export_to_turtle(enriched_photo_graph, enriched_photo_file)
+
+            # Bonus : on exporte aussi une version HTML du graphe enrichi
+            # pour pouvoir le visualiser facilement dans un navigateur
+            export_graph_to_html(
+                enriched_photo_graph, enriched_photo_file.with_suffix(".html") # change l'extension du fichier
+            )
+
+            print(f"Réussite : {turtle_photo_file.name} enrichi.") # print pour indiquer que le script a abouti, graph par graph
+
+        except Exception as e: # si l'exécution échoue pour un graph, affiche un message d'erreur sans arrêter l'exécution du script
+            print(f"Échec pour {turtle_photo_file.name} : {e}")
