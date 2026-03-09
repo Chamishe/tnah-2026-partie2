@@ -1,0 +1,97 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns2: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns3: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns4: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns5: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns6: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns7: <http://rdvocab.info/Elements/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266661c> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-06-10" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266661c#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266661c#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns4:FRBNF 40266661 ;
+    dcterms:date "1905/1906" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 16,9 x 21,3 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11934277k>,
+        <http://data.bnf.fr/ark:/12148/cb11966689s>,
+        <http://data.bnf.fr/ark:/12148/cb12287719g>,
+        <http://data.bnf.fr/ark:/12148/cb13318486w>,
+        <http://data.bnf.fr/ark:/12148/cb156206824> ;
+    dcterms:title "Canal de la Villette - Quai Jemmapes : [photographie]" ;
+    ns2:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b10519888c> ;
+    ns2:P30139 <http://data.bnf.fr/ark:/12148/cb40266661c#Expression> ;
+    ns2:P30279 "France" ;
+    ns5:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns7:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns1:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b10519888c> ;
+    ns1:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266661c#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266661c> .
+
+<http://data.bnf.fr/ark:/12148/cb11934277k> skos:altLabel "Appareils élévateurs"@fr,
+        "Engins de levage"@fr,
+        "Levage -- Appareils et matériel"@fr,
+        "Levage, Appareils de"@fr,
+        "Levage, Engins de"@fr,
+        "Machines de levage"@fr,
+        "Matériel de levage"@fr,
+        "Élévateurs (manutention)"@fr,
+        "Elevatori"@it ;
+    skos:prefLabel "Appareils de levage"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11966689s> skos:altLabel "Moellons"@fr,
+        "Parpaing"@fr,
+        "Pierre de construction"@fr,
+        "Pietre da costruzione"@it ;
+    skos:prefLabel "Pierre à bâtir"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb12287719g> skos:altLabel "Berlines"@fr,
+        "Cabriolets"@fr,
+        "Calèches"@fr,
+        "Carrosses"@fr,
+        "Coches"@fr,
+        "Diligences"@fr,
+        "Fiacres"@fr,
+        "Voitures hippomobiles"@fr,
+        "Voitures à cheval"@fr,
+        "Voitures à chevaux"@fr,
+        "Véhicules attelés"@fr,
+        "Carrozze a cavalli"@it ;
+    skos:prefLabel "Véhicules hippomobiles"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb13318486w> skos:altLabel "Industrie des transports"@fr,
+        "Industrie du transport"@fr,
+        "Modes de transport"@fr,
+        "Moyens de transport"@fr,
+        "Transport -- Industrie et commerce"@fr,
+        "Transports"@fr ;
+    skos:prefLabel "Transport"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb156206824> skos:altLabel "Bassin de la Villette (Paris, France)"@fr,
+        "Villette, Bassin de la (Paris, France)"@fr ;
+    skos:prefLabel "Paris (France) -- Bassin de la Villette"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb40266661c#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns3:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns6:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11934277k>,
+        <http://data.bnf.fr/ark:/12148/cb11966689s>,
+        <http://data.bnf.fr/ark:/12148/cb12287719g>,
+        <http://data.bnf.fr/ark:/12148/cb13318486w>,
+        <http://data.bnf.fr/ark:/12148/cb156206824> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266661c#frbr:Expression> .
+

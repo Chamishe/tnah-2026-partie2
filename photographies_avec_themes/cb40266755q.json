@@ -1,0 +1,29 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "Rue de Bagnolet, 148",
+            "type": "adresse",
+            "precision": "numéro et rue"
+        },
+        {
+            "nom": "Ancien parc de Philippe Égalité",
+            "type": "lieu historique",
+            "precision": "parc ou domaine"
+        },
+        {
+            "nom": "Rue de Bagnolet",
+            "type": "voie",
+            "precision": "rue"
+        },
+        {
+            "nom": "Paris",
+            "type": "ville",
+            "precision": "commune"
+        },
+        {
+            "nom": "France",
+            "type": "pays",
+            "precision": "pays"
+        }
+    ]
+}

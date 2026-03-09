@@ -1,0 +1,70 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdvocab.info/Elements/> .
+@prefix ns2: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns3: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns4: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns5: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns6: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns7: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266679f> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-06-10" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266679f#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266679f#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns7:FRBNF 40266679 ;
+    dcterms:date "1901" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17 x 21,4 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119314762>,
+        <http://data.bnf.fr/ark:/12148/cb11934475f>,
+        <http://data.bnf.fr/ark:/12148/cb11975999w>,
+        <http://data.bnf.fr/ark:/12148/cb16689123s> ;
+    dcterms:title "Belleville : emplacement du massacre des otages, Rue Haxo 85 - (Mai 1871), [photographie]" ;
+    ns4:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105198584> ;
+    ns4:P30139 <http://data.bnf.fr/ark:/12148/cb40266679f#Expression> ;
+    ns4:P30279 "France" ;
+    ns6:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns1:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns5:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105198584> ;
+    ns5:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266679f#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266679f> .
+
+<http://data.bnf.fr/ark:/12148/cb119314762> skos:prefLabel "France"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11934475f> skos:altLabel "Fosses (sépultures)"@fr,
+        "Hypogées"@fr,
+        "Sépultures"@fr,
+        "Tombeaux"@fr,
+        "Tombe"@it ;
+    skos:prefLabel "Tombes"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11975999w> skos:altLabel "19e siècle (subdivision)"@fr,
+        "Dix-neuvième siècle (subdivision)"@fr,
+        "XIXe siècle (subdivision)"@fr ;
+    skos:prefLabel "19e siècle"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb16689123s> skos:altLabel "Haxo, Rue (Paris, France)"@fr,
+        "Rue Haxo (Paris, France)"@fr ;
+    skos:prefLabel "Paris (France) -- Rue Haxo"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb40266679f#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns2:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns3:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119314762>,
+        <http://data.bnf.fr/ark:/12148/cb11934475f>,
+        <http://data.bnf.fr/ark:/12148/cb11975999w>,
+        <http://data.bnf.fr/ark:/12148/cb16689123s> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266679f#frbr:Expression> .
+

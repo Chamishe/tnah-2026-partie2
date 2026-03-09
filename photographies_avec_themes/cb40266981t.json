@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "26 Rue de Penthièvre",
+            "type": "adresse"
+        },
+        {
+            "nom": "Rue de Penthièvre",
+            "type": "rue"
+        },
+        {
+            "nom": "Paris",
+            "type": "ville"
+        },
+        {
+            "nom": "France",
+            "type": "pays"
+        }
+    ]
+}

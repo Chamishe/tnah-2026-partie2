@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "118 Rue de Grenelle",
+            "type": "adresse"
+        },
+        {
+            "entite": "Rue de Grenelle",
+            "type": "voie"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

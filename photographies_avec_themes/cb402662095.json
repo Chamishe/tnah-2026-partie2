@@ -1,0 +1,36 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "Pont des Belles-Fontaines",
+            "localisation": {
+                "commune": "Juvisy-sur-Orge",
+                "departement": "Essonne",
+                "pays": "France"
+            }
+        },
+        {
+            "nom": "Juvisy-sur-Orge",
+            "localisation": {
+                "departement": "Essonne",
+                "pays": "France"
+            }
+        },
+        {
+            "nom": "Viry-Châtillon",
+            "localisation": {
+                "departement": "Essonne",
+                "pays": "France"
+            }
+        },
+        {
+            "nom": "Essonne",
+            "localisation": {
+                "pays": "France"
+            }
+        },
+        {
+            "nom": "France",
+            "localisation": {}
+        }
+    ]
+}

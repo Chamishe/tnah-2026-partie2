@@ -1,0 +1,32 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Bassin",
+            "type": "élément spécifique du parc"
+        },
+        {
+            "entite": "Jardins du château de Versailles",
+            "type": "zone du domaine"
+        },
+        {
+            "entite": "Parc du château de Versailles",
+            "type": "zone élargie du domaine"
+        },
+        {
+            "entite": "Château de Versailles",
+            "type": "monument"
+        },
+        {
+            "entite": "Versailles",
+            "type": "ville"
+        },
+        {
+            "entite": "Yvelines",
+            "type": "département"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

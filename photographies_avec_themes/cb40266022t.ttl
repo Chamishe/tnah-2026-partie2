@@ -1,0 +1,70 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdvocab.info/Elements/> .
+@prefix ns2: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns3: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns4: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns5: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns6: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns7: <http://rdaregistry.info/Elements/u/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266022t> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2018-07-31" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266022t#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266022t#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns3:FRBNF 40266022 ;
+    dcterms:date "1901" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17 x 20,3 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119314762>,
+        <http://data.bnf.fr/ark:/12148/cb119541004>,
+        <http://data.bnf.fr/ark:/12148/cb11975998j>,
+        <http://data.bnf.fr/ark:/12148/cb12008687x> ;
+    dcterms:title "Versailles : fontaine du Point du jour, [photographie]" ;
+    ns2:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105180700> ;
+    ns2:P30139 <http://data.bnf.fr/ark:/12148/cb40266022t#Expression> ;
+    ns2:P30279 "France" ;
+    ns7:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Dble du n.o 6060 (B009398-T041662) ?" ;
+    ns1:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Dble du n.o 6060 (B009398-T041662) ?" ;
+    ns4:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105180700> ;
+    ns4:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266022t#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266022t> .
+
+<http://data.bnf.fr/ark:/12148/cb119314762> skos:prefLabel "France"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb119541004> skos:altLabel "Bornes-fontaines"@fr,
+        "Fontaines de bassins"@fr,
+        "Fontaines de jardins"@fr,
+        "Fontaines publiques"@fr,
+        "Vasques"@fr ;
+    skos:prefLabel "Fontaines"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11975998j> skos:altLabel "17e siècle (subdivision)"@fr,
+        "Dix-septième siècle (subdivision)"@fr,
+        "XVIIe siècle (subdivision)"@fr ;
+    skos:prefLabel "17e siècle"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb12008687x> skos:altLabel "Versailles (Yvelines, France) -- Jardins du château"@fr,
+        "Versailles (Yvelines, France) -- Parc du château"@fr ;
+    skos:prefLabel "Versailles (Yvelines, France) -- Château -- Jardins"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb40266022t#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns6:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns5:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119314762>,
+        <http://data.bnf.fr/ark:/12148/cb119541004>,
+        <http://data.bnf.fr/ark:/12148/cb11975998j>,
+        <http://data.bnf.fr/ark:/12148/cb12008687x> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266022t#frbr:Expression> .
+

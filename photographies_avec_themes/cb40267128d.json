@@ -1,0 +1,23 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Rue de Picpus",
+            "precision": "voie",
+            "localisation": {
+                "ville": "Paris",
+                "pays": "France"
+            }
+        },
+        {
+            "entite": "Paris",
+            "precision": "ville",
+            "localisation": {
+                "pays": "France"
+            }
+        },
+        {
+            "entite": "France",
+            "precision": "pays"
+        }
+    ]
+}

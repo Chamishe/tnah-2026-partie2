@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "65 avenue d'Orléans",
+            "type": "adresse"
+        },
+        {
+            "entite": "Versailles",
+            "type": "ville"
+        },
+        {
+            "entite": "Yvelines",
+            "type": "département"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

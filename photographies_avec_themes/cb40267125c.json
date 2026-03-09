@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "87 bis, Rue de Charenton",
+            "type": "adresse"
+        },
+        {
+            "entite": "Rue de Charenton",
+            "type": "rue"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

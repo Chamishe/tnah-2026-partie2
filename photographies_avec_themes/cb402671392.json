@@ -1,0 +1,32 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "4 Place Pinel",
+            "type": "adresse"
+        },
+        {
+            "entite": "Passage Doré",
+            "type": "passage"
+        },
+        {
+            "entite": "Cité Doré",
+            "type": "cité"
+        },
+        {
+            "entite": "Place Pinel",
+            "type": "place"
+        },
+        {
+            "entite": "13e arrondissement",
+            "type": "arrondissement"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

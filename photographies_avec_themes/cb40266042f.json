@@ -1,0 +1,28 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Bassin de Latone",
+            "type": "élément spécifique du jardin"
+        },
+        {
+            "entite": "Jardins du château de Versailles",
+            "type": "zone du domaine"
+        },
+        {
+            "entite": "Château de Versailles",
+            "type": "monument"
+        },
+        {
+            "entite": "Versailles",
+            "type": "ville"
+        },
+        {
+            "entite": "Yvelines",
+            "type": "département"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

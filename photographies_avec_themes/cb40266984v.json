@@ -1,0 +1,16 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Rue de Penthièvre",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Avenue Matignon",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Paris",
+            "localisation": "France"
+        }
+    ]
+}

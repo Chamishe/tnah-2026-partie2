@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "8 Rue d'Anjou",
+            "type": "adresse"
+        },
+        {
+            "nom": "Rue d'Anjou",
+            "type": "rue"
+        },
+        {
+            "nom": "Paris",
+            "type": "ville"
+        },
+        {
+            "nom": "France",
+            "type": "pays"
+        }
+    ]
+}

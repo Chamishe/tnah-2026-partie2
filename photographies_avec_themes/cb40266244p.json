@@ -1,0 +1,16 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Église Sainte-Marie-Madeleine",
+            "localisation": "Massy"
+        },
+        {
+            "entite": "Massy",
+            "localisation": "Essonne"
+        },
+        {
+            "entite": "Essonne",
+            "localisation": "France"
+        }
+    ]
+}

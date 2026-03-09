@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Église Saint-Denys",
+            "precision": "bâtiment"
+        },
+        {
+            "entite": "Arcueil",
+            "precision": "commune"
+        },
+        {
+            "entite": "Val-de-Marne",
+            "precision": "département"
+        },
+        {
+            "entite": "France",
+            "precision": "pays"
+        }
+    ]
+}

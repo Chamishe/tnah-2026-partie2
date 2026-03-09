@@ -1,0 +1,28 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Cité Doré",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "4 Place Pinel",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "avenue Contant-Philippe",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "13e arrondissement",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Paris",
+            "localisation": "France"
+        },
+        {
+            "entite": "France",
+            "localisation": null
+        }
+    ]
+}

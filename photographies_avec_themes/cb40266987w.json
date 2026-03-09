@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "17 Rue Laffitte",
+            "type": "adresse"
+        },
+        {
+            "entite": "Rue Laffitte",
+            "type": "rue"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

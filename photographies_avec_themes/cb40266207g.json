@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Pont des Belles-Fontaines",
+            "localisation": "Juvisy-sur-Orge, Essonne, France"
+        },
+        {
+            "entite": "Juvisy-sur-Orge",
+            "localisation": "Essonne, France"
+        },
+        {
+            "entite": "Essonne",
+            "localisation": "France"
+        },
+        {
+            "entite": "France",
+            "localisation": null
+        }
+    ]
+}

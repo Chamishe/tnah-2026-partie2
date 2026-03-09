@@ -1,0 +1,81 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdvocab.info/Elements/> .
+@prefix ns2: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns3: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns4: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns5: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns6: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns7: <http://rdaregistry.info/Elements/u/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266928c> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-05-28" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266928c#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266928c#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns4:FRBNF 40266928 ;
+    dcterms:date "1901/1902" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17,4 x 21,8 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11938914k>,
+        <http://data.bnf.fr/ark:/12148/cb12287719g>,
+        <http://data.bnf.fr/ark:/12148/cb124214644>,
+        <http://data.bnf.fr/ark:/12148/cb15081916m> ;
+    dcterms:title "Derniers débris de l'ancien village du Roule : Fg S.t Honoré 161, [photographie]" ;
+    ns3:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105176058> ;
+    ns3:P30139 <http://data.bnf.fr/ark:/12148/cb40266928c#Expression> ;
+    ns3:P30279 "France" ;
+    ns7:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns1:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns2:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105176058> ;
+    ns2:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266928c#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266928c> .
+
+<http://data.bnf.fr/ark:/12148/cb11938914k> skos:altLabel "Magasins, Vitrines de"@fr,
+        "Vitrines"@fr ;
+    skos:prefLabel "Vitrines (magasins)"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb12287719g> skos:altLabel "Berlines"@fr,
+        "Cabriolets"@fr,
+        "Calèches"@fr,
+        "Carrosses"@fr,
+        "Coches"@fr,
+        "Diligences"@fr,
+        "Fiacres"@fr,
+        "Voitures hippomobiles"@fr,
+        "Voitures à cheval"@fr,
+        "Voitures à chevaux"@fr,
+        "Véhicules attelés"@fr,
+        "Carrozze a cavalli"@it ;
+    skos:prefLabel "Véhicules hippomobiles"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb124214644> skos:prefLabel "Paris (France) -- Rue du Faubourg Saint-Honoré"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb15081916m> skos:altLabel "Affiches peintes"@fr,
+        "Murs peints en publicité"@fr,
+        "Murs réclames"@fr,
+        "Peinture murale publicitaire"@fr,
+        "Publicités murales peintes"@fr,
+        "Publicités peintes"@fr,
+        "Réclames peintes"@fr ;
+    skos:prefLabel "Murs peints publicitaires"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb40266928c#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns5:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns6:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb11938914k>,
+        <http://data.bnf.fr/ark:/12148/cb12287719g>,
+        <http://data.bnf.fr/ark:/12148/cb124214644>,
+        <http://data.bnf.fr/ark:/12148/cb15081916m> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266928c#frbr:Expression> .
+

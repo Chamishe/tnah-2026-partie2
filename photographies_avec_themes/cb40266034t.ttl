@@ -1,0 +1,71 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns2: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns3: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns4: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns5: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns6: <http://rdvocab.info/Elements/> .
+@prefix ns7: <http://rdaregistry.info/Elements/m/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266034t> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2022-12-30" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266034t#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266034t#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns5:FRBNF 40266034 ;
+    dcterms:date "1903/1927" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17,2 x 21,5 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119398674>,
+        <http://data.bnf.fr/ark:/12148/cb119541004>,
+        <http://data.bnf.fr/ark:/12148/cb11975998j>,
+        <http://data.bnf.fr/ark:/12148/cb12008687x>,
+        <http://data.bnf.fr/ark:/12148/cb148689133#about> ;
+    dcterms:title "Versailles : Fontaine du Point du Jour, Tigre terrassant un ours par Houzeau, [photographie]" ;
+    ns7:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b10518065t> ;
+    ns7:P30139 <http://data.bnf.fr/ark:/12148/cb40266034t#Expression> ;
+    ns7:P30279 "France" ;
+    ns2:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3" ;
+    ns6:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3" ;
+    ns1:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b10518065t> ;
+    ns1:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266034t#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266034t> .
+
+<http://data.bnf.fr/ark:/12148/cb119398674> skos:prefLabel "Versailles (Yvelines, France)"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb119541004> skos:altLabel "Bornes-fontaines"@fr,
+        "Fontaines de bassins"@fr,
+        "Fontaines de jardins"@fr,
+        "Fontaines publiques"@fr,
+        "Vasques"@fr ;
+    skos:prefLabel "Fontaines"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11975998j> skos:altLabel "17e siècle (subdivision)"@fr,
+        "Dix-septième siècle (subdivision)"@fr,
+        "XVIIe siècle (subdivision)"@fr ;
+    skos:prefLabel "17e siècle"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb12008687x> skos:altLabel "Versailles (Yvelines, France) -- Jardins du château"@fr,
+        "Versailles (Yvelines, France) -- Parc du château"@fr ;
+    skos:prefLabel "Versailles (Yvelines, France) -- Château -- Jardins"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb40266034t#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns4:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns3:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119398674>,
+        <http://data.bnf.fr/ark:/12148/cb119541004>,
+        <http://data.bnf.fr/ark:/12148/cb11975998j>,
+        <http://data.bnf.fr/ark:/12148/cb12008687x> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266034t#frbr:Expression> .
+

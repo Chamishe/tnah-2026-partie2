@@ -1,0 +1,28 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Rue du Faubourg Saint-Honoré (055-057)",
+            "type": "adresse"
+        },
+        {
+            "entite": "Rue du Faubourg Saint-Honoré",
+            "type": "rue"
+        },
+        {
+            "entite": "Palais de l'Élysée",
+            "type": "bâtiment"
+        },
+        {
+            "entite": "8e arrondissement",
+            "type": "arrondissement"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

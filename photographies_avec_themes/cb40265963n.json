@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "Château de Stains",
+            "localisation": "Stains, Seine-Saint-Denis, France"
+        },
+        {
+            "nom": "Stains",
+            "localisation": "Seine-Saint-Denis, France"
+        },
+        {
+            "nom": "Seine-Saint-Denis",
+            "localisation": "France"
+        },
+        {
+            "nom": "France",
+            "localisation": null
+        }
+    ]
+}

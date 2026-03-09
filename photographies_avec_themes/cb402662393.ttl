@@ -1,0 +1,70 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns2: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns3: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns4: <http://rdvocab.info/Elements/> .
+@prefix ns5: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns6: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns7: <http://rdaregistry.info/Elements/u/#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb402662393> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2018-07-31" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb402662393#about> .
+
+<http://data.bnf.fr/ark:/12148/cb402662393#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns2:FRBNF 40266239 ;
+    dcterms:date "1902/1903" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 21,2 x 17,2 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119314762>,
+        <http://data.bnf.fr/ark:/12148/cb119345731>,
+        <http://data.bnf.fr/ark:/12148/cb11938010q>,
+        <http://data.bnf.fr/ark:/12148/cb11994078m>,
+        <http://data.bnf.fr/ark:/12148/cb12104740r> ;
+    dcterms:title "Longpont : Eglise XII.e scle, XIII et XV.e scle, [photographie]" ;
+    ns1:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105196267> ;
+    ns1:P30139 <http://data.bnf.fr/ark:/12148/cb402662393#Expression> ;
+    ns1:P30279 "France" ;
+    ns7:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3" ;
+    ns4:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3" ;
+    ns3:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105196267> ;
+    ns3:expressionManifested <http://data.bnf.fr/ark:/12148/cb402662393#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb402662393> .
+
+<http://data.bnf.fr/ark:/12148/cb119314762> skos:prefLabel "France"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb119345731> skos:altLabel "Églises (constructions)"@fr ;
+    skos:prefLabel "Églises"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11938010q> skos:altLabel "Frontispices (architecture)"@fr,
+        "Murs de façades"@fr ;
+    skos:prefLabel "Façades"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11994078m> skos:altLabel "12e siècle (subdivision)"@fr,
+        "Douzième siècle (subdivision)"@fr,
+        "XIIe siècle (subdivision)"@fr ;
+    skos:prefLabel "12e siècle"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb12104740r> skos:prefLabel "Longpont-sur-Orge (Essonne, France) -- Basilique Notre-Dame"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb402662393#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns5:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns6:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119314762>,
+        <http://data.bnf.fr/ark:/12148/cb119345731>,
+        <http://data.bnf.fr/ark:/12148/cb11938010q>,
+        <http://data.bnf.fr/ark:/12148/cb11994078m>,
+        <http://data.bnf.fr/ark:/12148/cb12104740r> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb402662393#frbr:Expression> .
+

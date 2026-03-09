@@ -1,0 +1,24 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "57 rue de Varenne",
+            "type": "adresse"
+        },
+        {
+            "entite": "Hôtel Matignon",
+            "type": "bâtiment"
+        },
+        {
+            "entite": "Rue de Varenne",
+            "type": "voie"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Église Saint-Denis",
+            "localisation": "Wissous, Essonne, France"
+        },
+        {
+            "entite": "Wissous",
+            "localisation": "Essonne, France"
+        },
+        {
+            "entite": "Essonne",
+            "localisation": "France"
+        },
+        {
+            "entite": "France",
+            "localisation": null
+        }
+    ]
+}

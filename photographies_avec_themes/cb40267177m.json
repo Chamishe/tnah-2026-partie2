@@ -1,0 +1,24 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "128, Rue de l'Université",
+            "type": "adresse"
+        },
+        {
+            "entite": "Rue de l'Université",
+            "type": "voie"
+        },
+        {
+            "entite": "Hôtel de Lassay",
+            "type": "bâtiment"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

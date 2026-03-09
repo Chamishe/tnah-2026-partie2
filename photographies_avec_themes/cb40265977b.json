@@ -1,0 +1,29 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "46 Rue de la Légion d'Honneur",
+            "type": "adresse",
+            "precision": "très précise"
+        },
+        {
+            "nom": "Rue de la Légion d'Honneur",
+            "type": "rue",
+            "precision": "précise"
+        },
+        {
+            "nom": "Saint-Denis",
+            "type": "ville",
+            "precision": "générale"
+        },
+        {
+            "nom": "Île-de-France",
+            "type": "région",
+            "precision": "large"
+        },
+        {
+            "nom": "France",
+            "type": "pays",
+            "precision": "très large"
+        }
+    ]
+}

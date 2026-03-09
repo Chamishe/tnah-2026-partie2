@@ -1,0 +1,69 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns2: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns3: <http://rdvocab.info/Elements/> .
+@prefix ns4: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns5: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns6: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns7: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb40266133r> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2022-12-30" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb40266133r#about> .
+
+<http://data.bnf.fr/ark:/12148/cb40266133r#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns7:FRBNF 40266133 ;
+    dcterms:date "1902/1903" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17 x 21,3 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119398674>,
+        <http://data.bnf.fr/ark:/12148/cb11976032c>,
+        <http://data.bnf.fr/ark:/12148/cb12008687x>,
+        <http://data.bnf.fr/ark:/12148/cb135355804> ;
+    dcterms:title "Versailles : Bassin de Neptune, [photographie]" ;
+    ns2:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105195529> ;
+    ns2:P30139 <http://data.bnf.fr/ark:/12148/cb40266133r#Expression> ;
+    ns2:P30279 "France" ;
+    ns6:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3" ;
+    ns3:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3" ;
+    ns1:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105195529> ;
+    ns1:expressionManifested <http://data.bnf.fr/ark:/12148/cb40266133r#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb40266133r> .
+
+<http://data.bnf.fr/ark:/12148/cb119398674> skos:prefLabel "Versailles (Yvelines, France)"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11976032c> skos:altLabel "18e siècle (subdivision)"@fr,
+        "Dix-huitième siècle (subdivision)"@fr,
+        "XVIIIe siècle (subdivision)"@fr ;
+    skos:prefLabel "18e siècle"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb12008687x> skos:altLabel "Versailles (Yvelines, France) -- Jardins du château"@fr,
+        "Versailles (Yvelines, France) -- Parc du château"@fr ;
+    skos:prefLabel "Versailles (Yvelines, France) -- Château -- Jardins"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb135355804> skos:altLabel "Bassins d'ornement"@fr,
+        "Bassins de fontaines"@fr,
+        "Jardins, Bassins de"@fr,
+        "Vasques"@fr ;
+    skos:prefLabel "Bassins de jardins"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb40266133r#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns5:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns4:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119398674>,
+        <http://data.bnf.fr/ark:/12148/cb11976032c>,
+        <http://data.bnf.fr/ark:/12148/cb12008687x>,
+        <http://data.bnf.fr/ark:/12148/cb135355804> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb40266133r#frbr:Expression> .
+

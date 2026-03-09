@@ -1,0 +1,70 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns2: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns3: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns4: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns5: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns6: <http://rdvocab.info/Elements/> .
+@prefix ns7: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb402661583> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2023-04-06" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb402661583#about> .
+
+<http://data.bnf.fr/ark:/12148/cb402661583#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns1:FRBNF 40266158 ;
+    dcterms:date "1901" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 16,9 x 20,8 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119311589>,
+        <http://data.bnf.fr/ark:/12148/cb11989609f>,
+        <http://data.bnf.fr/ark:/12148/cb12008687x> ;
+    dcterms:title "Versailles : Bosquet de L'Arc de Triomphe, [photographie]" ;
+    ns2:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105196015> ;
+    ns2:P30139 <http://data.bnf.fr/ark:/12148/cb402661583#Expression> ;
+    ns2:P30279 "France" ;
+    ns3:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns6:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Date d'après : Szarkowski, John. The Work of Atget. New-York, 1981-1985, t.3. - Num. de nég. coupé dans l'épr. en b. à g." ;
+    ns4:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105196015> ;
+    ns4:expressionManifested <http://data.bnf.fr/ark:/12148/cb402661583#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb402661583> .
+
+<http://data.bnf.fr/ark:/12148/cb119311589> skos:altLabel "Animaux -- Chasse"@fr,
+        "Chasse au fusil"@fr,
+        "Chasse sportive"@fr,
+        "Chasse à tir"@fr,
+        "Contribution à la chasse"@fr,
+        "Cynégétique"@fr,
+        "Et la chasse"@fr ;
+    skos:prefLabel "Chasse"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb11989609f> skos:altLabel "Dans la peinture"@fr,
+        "Dans la sculpture"@fr,
+        "Dans les arts graphiques"@fr,
+        "Représentation dans l'art"@fr,
+        "Représentation iconographique"@fr ;
+    skos:prefLabel "Dans l'art"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb12008687x> skos:altLabel "Versailles (Yvelines, France) -- Jardins du château"@fr,
+        "Versailles (Yvelines, France) -- Parc du château"@fr ;
+    skos:prefLabel "Versailles (Yvelines, France) -- Château -- Jardins"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb402661583#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns7:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns5:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb119311589>,
+        <http://data.bnf.fr/ark:/12148/cb11989609f>,
+        <http://data.bnf.fr/ark:/12148/cb12008687x> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb402661583#frbr:Expression> .
+

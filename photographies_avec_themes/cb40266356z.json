@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Église Saint-Martin",
+            "localisation": "Jouy-en-Josas, Yvelines, France"
+        },
+        {
+            "entite": "Jouy-en-Josas",
+            "localisation": "Yvelines, France"
+        },
+        {
+            "entite": "Yvelines",
+            "localisation": "France"
+        },
+        {
+            "entite": "France",
+            "localisation": null
+        }
+    ]
+}

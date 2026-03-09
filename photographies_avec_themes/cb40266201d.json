@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "Église Saint-Pierre-d'Igny",
+            "localisation": "Igny, Essonne, France"
+        },
+        {
+            "nom": "Igny",
+            "localisation": "Essonne, France"
+        },
+        {
+            "nom": "Essonne",
+            "localisation": "France"
+        },
+        {
+            "nom": "France",
+            "localisation": null
+        }
+    ]
+}

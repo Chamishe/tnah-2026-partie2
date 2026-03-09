@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Fontaine Trogneux",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Rue du Faubourg-Saint-Antoine",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Rue de Charonne",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Paris",
+            "localisation": "France"
+        }
+    ]
+}

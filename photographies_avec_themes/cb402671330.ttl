@@ -1,0 +1,72 @@
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://data.bnf.fr/vocabulary/roles/> .
+@prefix ns2: <http://data.bnf.fr/ontology/bnf-onto/> .
+@prefix ns3: <http://rdaregistry.info/Elements/m/#> .
+@prefix ns4: <http://id.loc.gov/vocabulary/relators/> .
+@prefix ns5: <http://rdaregistry.info/Elements/u/#> .
+@prefix ns6: <http://rdvocab.info/RDARelationshipsWEMI/> .
+@prefix ns7: <http://rdvocab.info/Elements/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.bnf.fr/ark:/12148/cb402671330> a skos:Concept ;
+    dcterms:created "1990-10-19" ;
+    dcterms:modified "2013-05-30" ;
+    foaf:focus <http://data.bnf.fr/ark:/12148/cb402671330#about> .
+
+<http://data.bnf.fr/ark:/12148/cb402671330#about> a <http://rdaregistry.info/Elements/c/#C10007>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Manifestation> ;
+    ns2:FRBNF 40267133 ;
+    dcterms:date "1899/1900" ;
+    dcterms:description "1 photogr. pos. sur papier albuminé : d'après négatif sur verre au gélatinobromure ; 17,4 x 22,3 cm (épr.)" ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb118764867#about>,
+        <http://data.bnf.fr/ark:/12148/cb12287719g>,
+        <http://data.bnf.fr/ark:/12148/cb15088602s> ;
+    dcterms:title "Porte - Salpétrière : Juin 1899, [photographie]" ;
+    ns3:P30016 <https://gallica.bnf.fr/ark:/12148/btv1b105177387>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b105177402> ;
+    ns3:P30139 <http://data.bnf.fr/ark:/12148/cb402671330#Expression> ;
+    ns3:P30279 "France" ;
+    ns5:P60470 "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (11)-BOITE FOL B, exemplaire n°1. Note : Num. de nég. coupé dans l'épr. en b. à dr." ;
+    ns7:note "Technique de l'image : photographie positive. - papier albuminé. - procédé au bromure d'argent. - verre. Note : Notice décrivant le tirage conservé sous la cote BnF, Estampes, EO-109 (11)-BOITE FOL B, exemplaire n°1. Note : Num. de nég. coupé dans l'épr. en b. à dr." ;
+    ns6:electronicReproduction <https://gallica.bnf.fr/ark:/12148/btv1b105177387>,
+        <https://gallica.bnf.fr/ark:/12148/btv1b105177402> ;
+    ns6:expressionManifested <http://data.bnf.fr/ark:/12148/cb402671330#Expression> ;
+    rdfs:seeAlso <https://catalogue.bnf.fr/ark:/12148/cb402671330> .
+
+<http://data.bnf.fr/ark:/12148/cb12287719g> skos:altLabel "Berlines"@fr,
+        "Cabriolets"@fr,
+        "Calèches"@fr,
+        "Carrosses"@fr,
+        "Coches"@fr,
+        "Diligences"@fr,
+        "Fiacres"@fr,
+        "Voitures hippomobiles"@fr,
+        "Voitures à cheval"@fr,
+        "Voitures à chevaux"@fr,
+        "Véhicules attelés"@fr,
+        "Carrozze a cavalli"@it ;
+    skos:prefLabel "Véhicules hippomobiles"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb15088602s> skos:altLabel "Boulevard de l'Hôpital (Paris, France)"@fr,
+        "Hôpital, Boulevard de l' (Paris, France)"@fr ;
+    skos:prefLabel "Paris (France) -- Boulevard de l'Hôpital"@fr .
+
+<http://data.bnf.fr/ark:/12148/cb402671330#Expression> a <http://rdaregistry.info/Elements/c/#C10006>,
+        <http://rdvocab.info/uri/schema/FRBRentitiesRDA/Expression> ;
+    ns1:r4030 <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns1:r530 <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    ns4:col <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    ns4:pht <http://data.bnf.fr/ark:/12148/cb11889340k#about> ;
+    dcterms:contributor <http://data.bnf.fr/ark:/12148/cb11889340k#about>,
+        <http://data.bnf.fr/ark:/12148/cb12541292d#about> ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-2/fre> ;
+    dcterms:subject <http://data.bnf.fr/ark:/12148/cb12287719g>,
+        <http://data.bnf.fr/ark:/12148/cb15088602s> ;
+    dcterms:type dcmitype:StillImage ;
+    owl:sameAs <http://data.bnf.fr/ark:/12148/cb402671330#frbr:Expression> .
+

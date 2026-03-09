@@ -1,0 +1,24 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "Place Hoche 5",
+            "type": "adresse",
+            "precision": "très précise"
+        },
+        {
+            "nom": "Versailles",
+            "type": "ville",
+            "precision": "précise"
+        },
+        {
+            "nom": "Yvelines",
+            "type": "département",
+            "precision": "générale"
+        },
+        {
+            "nom": "France",
+            "type": "pays",
+            "precision": "très générale"
+        }
+    ]
+}

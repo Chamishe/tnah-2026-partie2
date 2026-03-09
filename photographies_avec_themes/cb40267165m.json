@@ -1,0 +1,24 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Rue de Verneuil 13 et 15",
+            "type": "adresse"
+        },
+        {
+            "entite": "Rue de Verneuil",
+            "type": "voie"
+        },
+        {
+            "entite": "10ème arrondissement",
+            "type": "arrondissement"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

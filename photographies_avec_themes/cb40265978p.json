@@ -1,0 +1,16 @@
+{
+    "entites_geographiques": [
+        {
+            "nom": "Ancien Couvent des Carmelites",
+            "type": "bâtiment"
+        },
+        {
+            "nom": "Saint-Denis",
+            "type": "ville"
+        },
+        {
+            "nom": "France",
+            "type": "pays"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Rue de Grenelle 101",
+            "type": "adresse"
+        },
+        {
+            "entite": "Rue de Grenelle",
+            "type": "voie"
+        },
+        {
+            "entite": "Paris",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}

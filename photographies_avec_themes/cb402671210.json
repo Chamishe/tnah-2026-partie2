@@ -1,0 +1,24 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Fontaine de la Petite Halle",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Rue de Montreuil",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Rue du Faubourg-Saint-Antoine",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Faubourg Saint-Antoine",
+            "localisation": "Paris, France"
+        },
+        {
+            "entite": "Paris",
+            "localisation": "France"
+        }
+    ]
+}

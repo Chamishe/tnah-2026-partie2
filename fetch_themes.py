@@ -228,7 +228,7 @@ if __name__ == "__main__": # permet d'indiquer à l'interpréteur python que cet
     output_dir = base_dir / "photographies_avec_themes" # dossier où les fichiers créés par le script seront envoyés
 
     # Sécurité : limiter le nombre de requêtes pour les tests (None pour tout traiter)
-    graph_processing_limit = 1
+    graph_processing_limit = None
 
     # --- ÉTAPE 2 : PRÉPARATION DES OUTILS (INITIALISATION)
 

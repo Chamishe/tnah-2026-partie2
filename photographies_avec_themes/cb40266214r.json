@@ -1,0 +1,16 @@
+{
+    "entites_geographiques": [
+        {
+            "entite": "Château de Juvisy",
+            "type": "bâtiment"
+        },
+        {
+            "entite": "Juvisy",
+            "type": "ville"
+        },
+        {
+            "entite": "France",
+            "type": "pays"
+        }
+    ]
+}
