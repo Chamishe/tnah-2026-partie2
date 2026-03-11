@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Saint-Denis",
-        "Seine-Saint-Denis",
-        "France"
-    ]
+    "toponyme": "Ancienne maison de retraite",
+    "lieu_dit": "cave",
+    "ville": "Saint-Denis",
+    "departement": "Seine-Saint-Denis",
+    "pays": "France"
 }

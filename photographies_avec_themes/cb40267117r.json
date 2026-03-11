@@ -1,20 +1,6 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Fontaine Trogneux",
-            "localisation": "Paris, France"
-        },
-        {
-            "entite": "Rue du Faubourg-Saint-Antoine",
-            "localisation": "Paris, France"
-        },
-        {
-            "entite": "Faubourg Saint-Antoine",
-            "localisation": "Paris, France"
-        },
-        {
-            "entite": "Paris",
-            "localisation": "France"
-        }
-    ]
+    "toponyme": "Fontaine Trogneux",
+    "voie": "Faubourg Saint-Antoine",
+    "ville": "Paris",
+    "pays": "France"
 }

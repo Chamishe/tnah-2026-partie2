@@ -1,24 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "101 Rue de Grenelle",
-            "type": "adresse",
-            "precision": "très précise"
-        },
-        {
-            "nom": "Rue de Grenelle",
-            "type": "rue",
-            "precision": "précise"
-        },
-        {
-            "nom": "Paris",
-            "type": "ville",
-            "precision": "générale"
-        },
-        {
-            "nom": "France",
-            "type": "pays",
-            "precision": "très générale"
-        }
-    ]
+    "toponyme": "Hôtel d'Argenson",
+    "adresse": "101 rue de Grenelle",
+    "voie": "rue de Grenelle",
+    "ville": "Paris",
+    "pays": "France"
 }

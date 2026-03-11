@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Saint-Ouen",
-        "Seine-Saint-Denis",
-        "France"
-    ]
+    "toponyme": "Ancien pavillon de chasse",
+    "ville": "Saint-Ouen",
+    "departement": "Seine-Saint-Denis",
+    "pays": "France"
 }

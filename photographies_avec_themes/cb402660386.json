@@ -1,10 +1,8 @@
 {
-    "entites_geographiques": [
-        "Jardins du château de Versailles",
-        "Parc du château de Versailles",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Le Printemps par Magnier",
+    "lieu": "Jardins du château de Versailles",
+    "voie": null,
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

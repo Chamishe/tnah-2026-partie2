@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Place de l'Eglise (Bièvres, Essonne, France)",
-        "Bièvres (Essonne, France)",
-        "Essonne (France)",
-        "France"
-    ]
+    "toponyme": "Place de l'Église",
+    "ville": "Bièvres",
+    "département": "Essonne",
+    "pays": "France"
 }

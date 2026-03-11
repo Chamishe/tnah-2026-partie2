@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Bassin de la Villette (Paris, France)",
-        "Quai Jemmapes",
-        "Canal de la Villette",
-        "Paris (France)"
-    ]
+    "toponyme": "Canal de la Villette",
+    "voie": "quai de Jemmapes",
+    "bassin": "Bassin de la Villette",
+    "ville": "Paris",
+    "pays": "France"
 }

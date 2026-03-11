@@ -1,24 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "85, Rue Haxo",
-            "type": "adresse"
-        },
-        {
-            "entite": "Rue Haxo",
-            "type": "voie"
-        },
-        {
-            "entite": "Belleville",
-            "type": "quartier"
-        },
-        {
-            "entite": "Paris",
-            "type": "ville"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": null,
+    "adresse": "85 rue Haxo",
+    "voie": "rue Haxo",
+    "ville": "Paris",
+    "pays": "France"
 }

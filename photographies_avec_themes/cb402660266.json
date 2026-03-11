@@ -1,10 +1,7 @@
 {
-    "entites_geographiques": [
-        "Jardins du château de Versailles",
-        "Parc du château de Versailles",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "L'air par Le Hongre",
+    "lieu": "Jardins du château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

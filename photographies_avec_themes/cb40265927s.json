@@ -1,23 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "Petit Trianon",
-            "type": "bâtiment",
-            "localisation": "Versailles, Yvelines, France"
-        },
-        {
-            "nom": "Versailles",
-            "type": "ville",
-            "localisation": "Yvelines, France"
-        },
-        {
-            "nom": "Yvelines",
-            "type": "département",
-            "localisation": "France"
-        },
-        {
-            "nom": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Petit Trianon",
+    "château": "Château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "Bassin de la Cascade",
-        "Grand Trianon",
-        "Versailles",
-        "France"
-    ]
+    "toponyme": "Grand Trianon",
+    "bâtiment": "Le Buffet",
+    "élément_paysager": "Bassin de la Cascade",
+    "domaine": "Château de Versailles",
+    "ville": "Versailles",
+    "pays": "France"
 }

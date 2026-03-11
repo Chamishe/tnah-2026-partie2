@@ -1,11 +1,8 @@
 {
-    "entites_geographiques": [
-        "Bassin du Midi",
-        "Jardins du château de Versailles",
-        "Parc du château de Versailles",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Bassin du Midi",
+    "lieu": "Jardins du château de Versailles",
+    "voie": null,
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

@@ -1,10 +1,8 @@
 {
-    "entites_geographiques": [
-        "Jardins du château de Versailles",
-        "Parc du château de Versailles",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "œuvre": "La Vénus accroupie par Coysevox",
+    "lieu": "Jardins du château de Versailles",
+    "château": "Château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

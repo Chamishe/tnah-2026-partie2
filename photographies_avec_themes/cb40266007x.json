@@ -1,28 +1,8 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Parc du château de Versailles",
-            "precision": "précise"
-        },
-        {
-            "entite": "Jardins du château de Versailles",
-            "precision": "précise"
-        },
-        {
-            "entite": "Château de Versailles",
-            "precision": "générale"
-        },
-        {
-            "entite": "Versailles",
-            "precision": "plus générale"
-        },
-        {
-            "entite": "Yvelines",
-            "precision": "large"
-        },
-        {
-            "entite": "France",
-            "precision": "très large"
-        }
-    ]
+    "toponyme": "Le Parc, Nymphe à la corne d'abondance",
+    "domaine": "Parc du château de Versailles",
+    "voie": "Parc du château",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Hôtel de Salm",
-        "Palais de la Légion d'honneur",
-        "Quai d'Orsay",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Palais de la Légion d'honneur",
+    "adresse": "quai d'Orsay",
+    "voie": "quai d'Orsay",
+    "ville": "Paris",
+    "pays": "France"
 }

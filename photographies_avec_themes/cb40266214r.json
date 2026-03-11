@@ -1,16 +1,6 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Château de Juvisy",
-            "type": "bâtiment"
-        },
-        {
-            "entite": "Juvisy",
-            "type": "ville"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Château de Juvisy",
+    "ville": "Juvisy-sur-Orge",
+    "département": "Essonne",
+    "pays": "France"
 }

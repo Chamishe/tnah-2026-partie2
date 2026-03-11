@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Square Louis XVI (Paris, France)",
-        "Rue d'Anjou (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Chapelle Expiatoire",
+    "voie": "rue d'Anjou",
+    "lieu_dit": "Square Louis XVI",
+    "ville": "Paris",
+    "pays": "France"
 }

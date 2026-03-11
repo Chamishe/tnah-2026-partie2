@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Rue de la Boulangerie",
-        "Saint-Denis",
-        "Seine-Saint-Denis",
-        "France"
-    ]
+    "voie": "rue de la Boulangerie",
+    "ville": "Saint-Denis",
+    "département": "Seine-Saint-Denis",
+    "pays": "France"
 }

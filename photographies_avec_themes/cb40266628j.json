@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Denis de la Chapelle (Paris, France)",
-        "Rue de la Chapelle (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Église Saint-Denis de la Chapelle",
+    "voie": "rue de la Chapelle",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue du Faubourg Saint-Honoré",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Palais de l'Élysée",
+    "adresse": "Ancien hôtel du Comte d'Évreux, 1718 Faubourg Saint-Honoré",
+    "voie": "rue du Faubourg Saint-Honoré",
+    "ville": "Paris",
+    "pays": "France"
 }

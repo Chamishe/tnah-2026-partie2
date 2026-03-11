@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue du Faubourg Saint-Honoré, 041",
-        "Hôtel de Pontalba",
-        "Rue du Faubourg Saint-Honoré",
-        "Paris (France)"
-    ]
+    "toponyme": "Hôtel Pontalba",
+    "adresse": "41 rue du Faubourg Saint-Honoré",
+    "voie": "rue du Faubourg Saint-Honoré",
+    "ville": "Paris",
+    "pays": "France"
 }

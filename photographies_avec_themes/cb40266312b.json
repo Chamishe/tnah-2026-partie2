@@ -1,7 +1,5 @@
 {
-    "entites_geographiques": [
-        "Wissous",
-        "Essonne",
-        "France"
-    ]
+    "ville": "Wissous",
+    "département": "Essonne",
+    "pays": "France"
 }

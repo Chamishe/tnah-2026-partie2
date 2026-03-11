@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Parc Sardou",
-        "Marly-le-Roi",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Parc Sardou",
+    "ville": "Marly-le-Roi",
+    "departement": "Yvelines",
+    "pays": "France"
 }

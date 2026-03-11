@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Saint-Denis",
-        "Seine-Saint-Denis",
-        "France"
-    ]
+    "toponyme": "Hôtel du Grand Cerf",
+    "ville": "Saint-Denis",
+    "departement": "Seine-Saint-Denis",
+    "pays": "France"
 }

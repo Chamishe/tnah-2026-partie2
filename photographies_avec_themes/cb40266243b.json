@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Basilique Notre-Dame de Longpont-sur-Orge",
-        "Longpont-sur-Orge",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Basilique Notre-Dame",
+    "localite": "Longpont-sur-Orge",
+    "departement": "Essonne",
+    "ville": "Longpont-sur-Orge",
+    "pays": "France"
 }

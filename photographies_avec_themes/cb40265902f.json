@@ -1,15 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "Bry-sur-Marne",
-            "type": "commune",
-            "departement": "Val-de-Marne",
-            "pays": "France"
-        },
-        {
-            "nom": "Marne",
-            "type": "cours d'eau",
-            "pays": "France"
-        }
-    ]
+    "toponyme": "La Marne",
+    "cours_deau": "Marne",
+    "commune": "Bry-sur-Marne",
+    "departement": "Val-de-Marne",
+    "pays": "France"
 }

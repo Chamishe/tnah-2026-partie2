@@ -1,20 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Porte rue de l'Orangerie",
-            "type": "voie ou lieu précis"
-        },
-        {
-            "entite": "Versailles",
-            "type": "ville"
-        },
-        {
-            "entite": "Yvelines",
-            "type": "département"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Porte rue de l'Orangerie",
+    "voie": "rue de l'Orangerie",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

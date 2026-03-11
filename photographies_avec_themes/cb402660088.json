@@ -1,32 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Versailles (Yvelines, France) -- Château -- Jardins",
-            "precision": "très précise"
-        },
-        {
-            "entite": "Versailles (Yvelines, France) -- Parc du château",
-            "precision": "très précise"
-        },
-        {
-            "entite": "Versailles (Yvelines, France) -- Jardins du château",
-            "precision": "très précise"
-        },
-        {
-            "entite": "Versailles (Yvelines, France)",
-            "precision": "précise"
-        },
-        {
-            "entite": "Yvelines (France)",
-            "precision": "générale"
-        },
-        {
-            "entite": "Loiret (Loiret, France. - cours d'eau)",
-            "precision": "spécifique (mentionné dans le titre mais non localisant pour la photo)"
-        },
-        {
-            "entite": "Loiret (France)",
-            "precision": "générale (département)"
-        }
-    ]
+    "toponyme": "Le Parc",
+    "lieu": "Jardins du château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

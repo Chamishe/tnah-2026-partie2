@@ -1,32 +1,8 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "4 Place Pinel",
-            "type": "adresse"
-        },
-        {
-            "entite": "Passage Doré",
-            "type": "passage"
-        },
-        {
-            "entite": "Cité Doré",
-            "type": "cité"
-        },
-        {
-            "entite": "Place Pinel",
-            "type": "place"
-        },
-        {
-            "entite": "13e arrondissement",
-            "type": "arrondissement"
-        },
-        {
-            "entite": "Paris",
-            "type": "ville"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Cité Doré",
+    "adresse": "4 Place Pinel, Passage Doré",
+    "voie": "Place Pinel",
+    "quartier": "13e arrondissement",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,6 +1,9 @@
 {
-    "entites_geographiques": [
-        "Versailles (Yvelines, France) -- Château -- Jardins",
-        "Versailles (Yvelines, France)"
-    ]
+    "toponyme": "le Rhône par Tuby",
+    "lieu": "Jardins du château de Versailles",
+    "voie": null,
+    "adresse": null,
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

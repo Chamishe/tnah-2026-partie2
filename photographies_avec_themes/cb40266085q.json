@@ -1,11 +1,8 @@
 {
-    "entites_geographiques": [
-        "Allée du Tapis Vert",
-        "Jardins du château de Versailles",
-        "Parc du château de Versailles",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Allée du Tapis Vert",
+    "domaine": "Château de Versailles",
+    "jardins": "Jardins du château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

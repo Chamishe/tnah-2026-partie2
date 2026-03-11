@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Château de Versailles (Versailles, Yvelines, France)",
-        "Versailles (Yvelines, France)",
-        "Yvelines (France)",
-        "France"
-    ]
+    "toponyme": "Château de Versailles",
+    "voie": null,
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

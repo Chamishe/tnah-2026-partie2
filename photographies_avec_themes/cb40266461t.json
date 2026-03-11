@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Porte du château",
+    "batiment": "Château de Versailles",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

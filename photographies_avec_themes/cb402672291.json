@@ -1,12 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Rue de Grenelle",
-            "precision": "numéro 118"
-        },
-        {
-            "entite": "Paris",
-            "precision": "France"
-        }
-    ]
+    "toponyme": "Hôtel de Bourbon Busset",
+    "adresse": "118 rue de Grenelle",
+    "voie": "rue de Grenelle",
+    "ville": "Paris",
+    "pays": "France"
 }

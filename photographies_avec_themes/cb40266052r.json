@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "Versailles (Yvelines, France) -- Parc du château",
-        "Versailles (Yvelines, France) -- Jardins du château",
-        "Versailles (Yvelines, France) -- Château -- Jardins",
-        "Versailles (Yvelines, France)"
-    ]
+    "toponyme": "Coin de Parc",
+    "lieu": "Parc du château",
+    "site": "Château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

@@ -1,23 +1,6 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "Église Notre-Dame-de-l'Assomption",
-            "type": "édifice religieux",
-            "localisation": "Stains"
-        },
-        {
-            "nom": "Stains",
-            "type": "commune",
-            "localisation": "Seine-Saint-Denis"
-        },
-        {
-            "nom": "Seine-Saint-Denis",
-            "type": "département",
-            "localisation": "France"
-        },
-        {
-            "nom": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Église Notre-Dame-de-l'Assomption",
+    "ville": "Stains",
+    "département": "Seine-Saint-Denis",
+    "pays": "France"
 }

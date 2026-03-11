@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "Rue Haxo 85 (Paris, France)",
-        "Rue Haxo (Paris, France)",
-        "Paris (France)",
-        "France"
-    ]
+    "toponyme": "Emplacement du massacre des otages",
+    "adresse": "85 rue Haxo",
+    "voie": "rue Haxo",
+    "quartier": "Belleville",
+    "ville": "Paris",
+    "pays": "France"
 }

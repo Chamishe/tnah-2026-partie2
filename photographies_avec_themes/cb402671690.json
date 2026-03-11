@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Quai Voltaire",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Hôtel de Vaubecourt, Hôtel du Président Perrault",
+    "adresse": "7, 9 et 11 Quai Voltaire",
+    "voie": "Quai Voltaire",
+    "ville": "Paris",
+    "pays": "France"
 }

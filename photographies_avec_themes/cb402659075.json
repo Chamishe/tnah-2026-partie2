@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Ancienne Abbaye",
-        "La Légion d'Honneur",
-        "Saint-Denis"
-    ]
+    "toponyme": "Ancienne Abbaye de Saint-Denis",
+    "ville": "Saint-Denis",
+    "département": "Seine-Saint-Denis",
+    "pays": "France"
 }

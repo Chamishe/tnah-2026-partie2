@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Place du Tertre (Paris, France)",
-        "Rue Norvins (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Place du Tertre",
+    "voie": "Rue Norvins",
+    "quartier": "Montmartre",
+    "ville": "Paris",
+    "pays": "France"
 }

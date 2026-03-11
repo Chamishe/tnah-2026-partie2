@@ -1,7 +1,8 @@
 {
-    "entites_geographiques": [
-        "Rue de Palestine, 6 (Paris, France)",
-        "Rue de Palestine (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Ancien regard",
+    "adresse": "6 rue de Palestine",
+    "voie": "rue de Palestine",
+    "quartier": "Belleville",
+    "ville": "Paris",
+    "pays": "France"
 }

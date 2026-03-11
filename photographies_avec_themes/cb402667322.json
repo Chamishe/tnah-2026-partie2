@@ -1,8 +1,5 @@
 {
-    "entites_geographiques": [
-        "Cimetière du Père-Lachaise",
-        "Cimetière de l'Est",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Cimetière du Père-Lachaise",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,6 +1,6 @@
 {
-    "entites_geographiques": [
-        "Rue du Repos (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Père Lachaise",
+    "voie": "rue du Repos",
+    "ville": "Paris",
+    "pays": "France"
 }

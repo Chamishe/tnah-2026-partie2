@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "136 rue Amelot (Paris, France)",
-        "Rue Amelot (Paris, France)",
-        "Paris (France)",
-        "France"
-    ]
+    "adresse": "136 rue Amelot",
+    "voie": "rue Amelot",
+    "ville": "Paris",
+    "pays": "France"
 }

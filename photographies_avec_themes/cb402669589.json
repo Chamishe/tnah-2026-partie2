@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "8 Rue d'Anjou (Paris, France)",
-        "Rue d'Anjou (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Hôtel 8 Rue d'Anjou",
+    "adresse": "8 rue d'Anjou",
+    "voie": "rue d'Anjou",
+    "ville": "Paris",
+    "pays": "France"
 }

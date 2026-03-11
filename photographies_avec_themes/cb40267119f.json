@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Place de la Nation (Paris, France)",
-        "Place du Trône (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Ancienne Barrière du Trône",
+    "voie": "Place de la Nation",
+    "ville": "Paris",
+    "pays": "France"
 }

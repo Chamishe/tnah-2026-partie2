@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "Grand Trianon",
-        "Versailles",
-        "Île-de-France",
-        "France"
-    ]
+    "toponyme": "Grand Trianon",
+    "batiment": "Grand Trianon",
+    "domaine": "Domaine de Versailles",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

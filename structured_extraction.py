@@ -40,27 +40,45 @@ for turtle_file in turtle_files:
     messages = [
         {
             "role": "system", #Role system : Ce que le LLM va garder en mémoire à chaque itération.
-            #Bon pour "content" il nous demande de créer une variable ailleurs mais j'ai pas envie, je comprend mieux comme ça
+            #Pour "content" il nous demande de créer une variable ailleurs mais j'ai pas envie, je comprend mieux comme ça
             "content": """
-                # Rôle
-                Tu es un expert en extraction d'information géographique dans des métadonnées patrimoniales.
+            # Rôle
+            Tu es un expert en extraction d'information géographique dans des métadonnées patrimoniales.
 
-                # Tâche
-                À partir d'un résumé descriptif d'une photographie ancienne, tu dois :
-                1. identifier les entités géographiques qui renseignent sur **la localisation du sujet de la photographie** dans l'espace ;
-                2. lister ces entités les uns après les autres.
+            # Tâche
+            À partir d'un résumé descriptif d'une photographie ancienne, tu dois :
+            1. identifier les entités géographiques qui renseignent sur **la localisation du sujet de la photographie** dans l'espace ;
+            2. lister ces entités les uns après les autres.
 
-                # Règles
-                - les entités doivent être triée de la plus précise à la plus générale.
+            # Règles
+            - les entités doivent être triée de la plus précise à la plus générale.
+            - si aucune ville n'est mentionnée, la ville est Paris.
+            - si aucun pays n'est mentionné, le pays est la France.
 
-                # Exemple
-                **Résumé descriptif **
-                <Ajoutez le rapport de la section **motivation** sur le cabaret du Soleil d'Or>
+            # Exemple
+            **Résumé descriptif **
+            === PHOTO : Au Soleil d'or : 84 [quatre-vingt-quatre] Rue S.t Sauveur (Modifié), [photographie] ===
+            Lien : http://data.bnf.fr/ark:/12148/cb40268281c#about
+            Thèmes assignés:
+            • « Dans l'art » - altLabels : « Représentation dans l'art », « Dans la sculpture », « Dans la peinture », « Représentation iconographique », « Dans les arts graphiques »
+            • « Cafés » - altLabels : « Cafés-bars », « Débits de boissons », « Estaminets », « Brasseries (cafés) », « Zincs (cafés) », « Bistrots », « Cafés publics », « Cafés (établissements) », « Bars »
+            • « Paris (France) »
+            • « Paris (France) -- Rue Saint-Sauveur » - altLabels : « Rue Saint-Sauveur (Paris, France) », « Saint-Sauveur, Rue (Paris, France) »
+            • « Enseignes » - altLabels : « Signes et indications », « Enseignes commerciales »
+            • « Ferronnerie d'art » - altLabels : « Serrurerie d'art », « Fer forgé, Objets en », « Fer ornemental », « Ferronnerie architecturale », « Ferrures », « Ferronneries », « Ferronnerie décorative », « Fer forgé », « Objets en fer forgé », « Ferronnerie (architecture) »
+            • « Soleil » - altLabels : « Physique solaire »
 
-                **Réponse JSON**
-                <Ajoutez ici la représentation JSON donnée ci-dessus>
+            **Réponse JSON**
+            {
+                "toponyme": "Au Soleil d'Or",
+                "adresse": "84 rue Saint-Sauveur",
+                "voie" : "rue Saint-Sauveur",
+                "ville": "Paris",
+                "pays": "France"
+            }
 
-                Le résumé à traiter sera donné dans le prochain input.
+
+            Le résumé à traiter sera donné dans le prochain input.
             """,
         },
         {

@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "Versailles (Yvelines, France) -- Château -- Jardins",
-        "Versailles (Yvelines, France) -- Jardins du château",
-        "Versailles (Yvelines, France) -- Parc du château",
-        "Versailles (Yvelines, France)"
-    ]
+    "toponyme": "Cérès par Regnaudin",
+    "localisation": "Jardins du château de Versailles",
+    "voie": null,
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

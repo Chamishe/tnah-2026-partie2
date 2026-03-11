@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Hôtel Matignon",
-        "Rue de Varenne",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Ambassade d'Autriche",
+    "adresse": "Hôtel Matignon, rue de Varenne",
+    "voie": "rue de Varenne",
+    "ville": "Paris",
+    "pays": "France"
 }

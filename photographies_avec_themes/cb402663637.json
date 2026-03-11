@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Louis",
-        "Le Port-Marly",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Église Saint-Louis",
+    "ville": "Le Port-Marly",
+    "département": "Yvelines",
+    "pays": "France"
 }

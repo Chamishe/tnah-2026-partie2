@@ -1,20 +1,8 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "65 avenue d'Orléans",
-            "type": "adresse"
-        },
-        {
-            "entite": "Versailles",
-            "type": "ville"
-        },
-        {
-            "entite": "Yvelines",
-            "type": "département"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": null,
+    "adresse": "65 avenue d'Orléans",
+    "voie": "avenue d'Orléans",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

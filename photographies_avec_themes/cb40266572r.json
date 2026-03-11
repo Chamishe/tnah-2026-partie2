@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue du Mont-Cenis (Paris, France)",
-        "Montmartre (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Maison de [Musette?]",
+    "voie": "rue du Mont-Cenis",
+    "quartier": "Montmartre",
+    "ville": "Paris",
+    "pays": "France"
 }

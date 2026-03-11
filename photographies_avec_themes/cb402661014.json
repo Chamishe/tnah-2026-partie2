@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Versailles (Yvelines, France) -- Château -- Jardins",
-        "Versailles (Yvelines, France) -- Jardins du château",
-        "Versailles (Yvelines, France) -- Parc du château",
-        "Versailles (Yvelines, France)"
-    ]
+    "toponyme": "Fontaine de la Pyramide",
+    "lieu_dit": "Jardins du château de Versailles",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

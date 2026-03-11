@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Quai Voltaire",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Quai Voltaire",
+    "voie": "Quai Voltaire",
+    "ville": "Paris",
+    "pays": "France"
 }

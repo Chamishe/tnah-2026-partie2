@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "18 avenue Montaigne",
-        "Avenue Montaigne",
-        "Paris",
-        "France"
-    ]
+    "toponyme": null,
+    "adresse": "18 avenue Montaigne",
+    "voie": "avenue Montaigne",
+    "ville": "Paris",
+    "pays": "France"
 }

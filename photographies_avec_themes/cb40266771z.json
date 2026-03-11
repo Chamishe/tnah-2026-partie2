@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Mathieu",
-        "Bures-sur-Yvette",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Église Saint-Mathieu",
+    "ville": "Bures-sur-Yvette",
+    "département": "Essonne",
+    "pays": "France"
 }

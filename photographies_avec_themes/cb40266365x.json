@@ -1,24 +1,6 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "Parc Sardou",
-            "type": "parc",
-            "precision": "très précise"
-        },
-        {
-            "nom": "Marly-le-Roi",
-            "type": "commune",
-            "precision": "précise"
-        },
-        {
-            "nom": "Yvelines",
-            "type": "département",
-            "precision": "générale"
-        },
-        {
-            "nom": "France",
-            "type": "pays",
-            "precision": "très générale"
-        }
-    ]
+    "toponyme": "Parc Sardou",
+    "ville": "Marly-le-Roi",
+    "département": "Yvelines",
+    "pays": "France"
 }

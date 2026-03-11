@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue du Faubourg Saint-Honoré",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Hôtel de Guébriant, aujourd'hui Rothschild",
+    "adresse": "33 rue du Faubourg Saint-Honoré",
+    "voie": "rue du Faubourg Saint-Honoré",
+    "ville": "Paris",
+    "pays": "France"
 }

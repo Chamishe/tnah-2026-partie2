@@ -1,6 +1,5 @@
 {
-    "entites_geographiques": [
-        "Place du Tertre (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Place du Tertre",
+    "ville": "Paris",
+    "pays": "France"
 }

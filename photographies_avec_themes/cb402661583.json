@@ -1,10 +1,7 @@
 {
-    "entites_geographiques": [
-        "Bosquet de L'Arc de Triomphe",
-        "Jardins du château de Versailles",
-        "Parc du château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Bosquet de l'Arc de Triomphe",
+    "lieu": "Jardins du château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

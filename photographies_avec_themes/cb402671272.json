@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Fontaine Daumesnil",
-        "Place Daumesnil",
-        "Place Félix-Éboué",
-        "Place de la Barrière-de-Reuilly",
-        "Paris (France)"
-    ]
+    "toponyme": "Ancienne Fontaine du Château d'eau",
+    "adresse": "Place Daumesnil",
+    "voie": "Place Félix-Éboué",
+    "ville": "Paris",
+    "pays": "France"
 }

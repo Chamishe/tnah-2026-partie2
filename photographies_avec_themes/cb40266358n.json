@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Gassicourt (Yvelines, France)",
-        "Mantes-Gassicourt (Yvelines, France)",
-        "Mantes-la-Jolie (Yvelines, France)",
-        "Yvelines (France)",
-        "France"
-    ]
+    "toponyme": "Vierge XIIIᵉ siècle",
+    "lieu_dit": "Gassicourt",
+    "commune": "Mantes-la-Jolie",
+    "département": "Yvelines",
+    "pays": "France"
 }

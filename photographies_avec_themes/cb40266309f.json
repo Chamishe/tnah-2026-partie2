@@ -1,7 +1,8 @@
 {
-    "entites_geographiques": [
-        "Saulx-les-Chartreux",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Sceaux [i.e. Saulx-les-Chartreux]",
+    "voie": null,
+    "adresse": "cour",
+    "ville": "Saulx-les-Chartreux",
+    "departement": "Essonne",
+    "pays": "France"
 }

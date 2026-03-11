@@ -1,20 +1,6 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "101 Rue de Grenelle",
-            "type": "adresse"
-        },
-        {
-            "entite": "Rue de Grenelle",
-            "type": "rue"
-        },
-        {
-            "entite": "Paris",
-            "type": "ville"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "adresse": "101 rue de Grenelle",
+    "voie": "rue de Grenelle",
+    "ville": "Paris",
+    "pays": "France"
 }

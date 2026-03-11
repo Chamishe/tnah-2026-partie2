@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "L'Eau par Legros",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

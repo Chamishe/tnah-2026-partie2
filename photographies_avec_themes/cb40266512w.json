@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Rue Cortot",
-        "Montmartre",
-        "Paris",
-        "France"
-    ]
+    "voie": "rue Cortot",
+    "quartier": "Montmartre",
+    "ville": "Paris",
+    "pays": "France"
 }

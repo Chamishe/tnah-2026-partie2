@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue Gambetta",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Porte Rue Gambetta",
+    "voie": "Rue Gambetta",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Saulx-les-Chartreux",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Saulx les Chartreux",
+    "voie": "coins (rues)",
+    "ville": "Saulx-les-Chartreux",
+    "département": "Essonne",
+    "pays": "France"
 }

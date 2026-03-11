@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Rue du Château-des-Rentiers",
-        "Paris",
-        "France"
-    ]
+    "adresse": "204 rue du Château-des-Rentiers",
+    "voie": "rue du Château-des-Rentiers",
+    "ville": "Paris",
+    "pays": "France"
 }

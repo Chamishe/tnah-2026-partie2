@@ -1,16 +1,6 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Église Saint-Merry",
-            "localisation": "Linas"
-        },
-        {
-            "entite": "Linas",
-            "localisation": "Essonne"
-        },
-        {
-            "entite": "Essonne",
-            "localisation": "France"
-        }
-    ]
+    "toponyme": "Église Saint-Merry",
+    "ville": "Linas",
+    "département": "Essonne",
+    "pays": "France"
 }

@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Étienne",
-        "Chilly-Mazarin",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Église Saint-Étienne",
+    "ville": "Chilly-Mazarin",
+    "département": "Essonne",
+    "pays": "France"
 }

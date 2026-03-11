@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "Versailles (Yvelines, France) -- Château -- Jardins",
-        "Versailles (Yvelines, France) -- Jardins du château",
-        "Versailles (Yvelines, France) -- Parc du château",
-        "Versailles (Yvelines, France)"
-    ]
+    "toponyme": "Cyparisse par Flamen",
+    "localisation": "Jardins du château",
+    "voie": null,
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

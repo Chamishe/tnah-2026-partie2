@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Petit Trianon",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Petit Trianon",
+    "château": "Château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Martin (Bièvres, Essonne, France)",
-        "Bièvres (Essonne, France)",
-        "Essonne (France)",
-        "France"
-    ]
+    "toponyme": "Église Saint-Martin",
+    "voie": "Église Saint-Martin",
+    "ville": "Bièvres",
+    "département": "Essonne",
+    "pays": "France"
 }

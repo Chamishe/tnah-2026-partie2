@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Impasse de l'Ecu de France",
-        "Saint-Ouen",
-        "Seine-Saint-Denis",
-        "France"
-    ]
+    "toponyme": "Impasse de l'Écu de France",
+    "voie": "Impasse de l'Écu de France",
+    "ville": "Saint-Ouen",
+    "département": "Seine-Saint-Denis",
+    "pays": "France"
 }

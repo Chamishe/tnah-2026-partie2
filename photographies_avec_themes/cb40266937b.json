@@ -1,28 +1,9 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Rue du Faubourg Saint-Honoré (055-057)",
-            "type": "adresse"
-        },
-        {
-            "entite": "Rue du Faubourg Saint-Honoré",
-            "type": "rue"
-        },
-        {
-            "entite": "Palais de l'Élysée",
-            "type": "bâtiment"
-        },
-        {
-            "entite": "8e arrondissement",
-            "type": "arrondissement"
-        },
-        {
-            "entite": "Paris",
-            "type": "ville"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Ancien hôtel du Comte d'Evreux",
+    "toponyme_actuel": "Palais de l'Élysée",
+    "adresse": "55-57 rue du Faubourg Saint-Honoré",
+    "voie": "rue du Faubourg Saint-Honoré",
+    "arrondissement": "8e arrondissement",
+    "ville": "Paris",
+    "pays": "France"
 }

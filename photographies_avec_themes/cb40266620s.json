@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Rue des Saules",
-        "Montmartre",
-        "Paris",
-        "France"
-    ]
+    "voie": "rue des Saules",
+    "quartier": "Montmartre",
+    "ville": "Paris",
+    "pays": "France"
 }

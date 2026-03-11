@@ -1,6 +1,6 @@
 {
-    "entites_geographiques": [
-        "Ferme de l'ancien château",
-        "Bures"
-    ]
+    "toponyme": "Ferme de l'ancien château",
+    "lieu-dit": "Bures",
+    "ville": "Bures",
+    "pays": "France"
 }

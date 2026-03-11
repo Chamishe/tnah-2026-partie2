@@ -1,6 +1,7 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Martin (Palaiseau, Essonne, France)",
-        "Palaiseau (Essonne, France)"
-    ]
+    "toponyme": "Église Saint-Martin",
+    "voie": "rue",
+    "ville": "Palaiseau",
+    "département": "Essonne",
+    "pays": "France"
 }

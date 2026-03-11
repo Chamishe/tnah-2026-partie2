@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Bassin de Neptune (Versailles, Yvelines, France)",
-        "Jardins du château de Versailles (Yvelines, France)",
-        "Parc du château de Versailles (Yvelines, France)",
-        "Château de Versailles (Yvelines, France)",
-        "Versailles (Yvelines, France)"
-    ]
+    "toponyme": "Bassin de Neptune",
+    "lieu": "Jardins du château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

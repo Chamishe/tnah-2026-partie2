@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue du Faubourg Saint-Honoré",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Hôpital Beaujon",
+    "adresse": "208 Faubourg Saint-Honoré",
+    "voie": "Faubourg Saint-Honoré",
+    "ville": "Paris",
+    "pays": "France"
 }

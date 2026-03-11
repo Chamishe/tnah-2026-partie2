@@ -1,20 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "10 Place de la Concorde",
-            "type": "adresse"
-        },
-        {
-            "entite": "Place de la Concorde",
-            "type": "place"
-        },
-        {
-            "entite": "Paris",
-            "type": "ville"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Ancien Hôtel de Crillon",
+    "adresse": "10 Place de la Concorde",
+    "voie": "Place de la Concorde",
+    "ville": "Paris",
+    "pays": "France"
 }

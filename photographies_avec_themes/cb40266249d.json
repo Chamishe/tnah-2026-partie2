@@ -1,23 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "Château de Montlhéry",
-            "type": "bâtiment historique",
-            "localisation": "Montlhéry"
-        },
-        {
-            "nom": "Montlhéry",
-            "type": "commune",
-            "localisation": "Essonne"
-        },
-        {
-            "nom": "Essonne",
-            "type": "département",
-            "localisation": "France"
-        },
-        {
-            "nom": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "La Tour",
+    "lieu_dit": "Château de Montlhéry",
+    "ville": "Montlhéry",
+    "departement": "Essonne",
+    "pays": "France"
 }

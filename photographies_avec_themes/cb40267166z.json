@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue de Verneuil 55 (Paris, France)",
-        "Rue de Verneuil (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Hôtel d'Avejan et de Belzunce",
+    "adresse": "55 rue de Verneuil",
+    "voie": "rue de Verneuil",
+    "ville": "Paris",
+    "pays": "France"
 }

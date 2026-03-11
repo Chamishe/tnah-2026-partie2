@@ -1,6 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue du Faubourg-Saint-Antoine (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Hôpital Trousseau",
+    "adresse": "110 Faubourg Saint-Antoine",
+    "voie": "rue du Faubourg-Saint-Antoine",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Germain de Charonne",
-        "Cimetière de Charonne",
-        "Charonne",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Église Saint-Germain de Charonne",
+    "cimetière": "Cimetière de Charonne",
+    "quartier": "Charonne",
+    "ville": "Paris",
+    "pays": "France"
 }

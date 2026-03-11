@@ -1,6 +1,6 @@
 {
-    "entites_geographiques": [
-        "Boulevard de l'Hôpital (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Porte - Salpêtrière",
+    "voie": "Boulevard de l'Hôpital",
+    "ville": "Paris",
+    "pays": "France"
 }

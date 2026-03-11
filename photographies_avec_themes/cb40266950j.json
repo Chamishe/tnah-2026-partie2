@@ -1,7 +1,8 @@
 {
-    "entites_geographiques": [
-        "Place Beauvau (Paris, France)",
-        "Rue du Faubourg Saint-Honoré (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Hôtel de Beauvau",
+    "adresse": "96 rue du Faubourg Saint-Honoré",
+    "voie": "rue du Faubourg Saint-Honoré",
+    "place": "Place Beauvau",
+    "ville": "Paris",
+    "pays": "France"
 }

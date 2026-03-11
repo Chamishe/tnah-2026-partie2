@@ -1,20 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "Église Saint-Pierre-d'Igny",
-            "localisation": "Igny, Essonne, France"
-        },
-        {
-            "nom": "Igny",
-            "localisation": "Essonne, France"
-        },
-        {
-            "nom": "Essonne",
-            "localisation": "France"
-        },
-        {
-            "nom": "France",
-            "localisation": null
-        }
-    ]
+    "toponyme": "Église Saint-Pierre-d'Igny",
+    "lieu_dit": "clocher Roman",
+    "ville": "Igny",
+    "departement": "Essonne",
+    "pays": "France"
 }

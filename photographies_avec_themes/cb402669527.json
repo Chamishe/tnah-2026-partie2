@@ -1,16 +1,8 @@
 {
-    "entities": [
-        {
-            "            ": {
-                "entités_géographiques": [
-                    "Cabaret du Ciel",
-                    "51 Boulevard de Clichy",
-                    "Boulevard de Clichy",
-                    "Montmartre",
-                    "Paris",
-                    "France"
-                ]
-            }
-        }
-    ]
+    "toponyme": "Cabaret du Ciel",
+    "adresse": "51 Boulevard de Clichy",
+    "voie": "Boulevard de Clichy",
+    "quartier": "Montmartre",
+    "ville": "Paris",
+    "pays": "France"
 }

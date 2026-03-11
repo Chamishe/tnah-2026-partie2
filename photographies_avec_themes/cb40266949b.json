@@ -1,20 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Hôtel de Coigny",
-            "precision": "bâtiment spécifique"
-        },
-        {
-            "entite": "Rue du Faubourg Saint-Honoré",
-            "precision": "rue"
-        },
-        {
-            "entite": "Paris",
-            "precision": "ville"
-        },
-        {
-            "entite": "France",
-            "precision": "pays"
-        }
-    ]
+    "toponyme": "Hôtel de Coigny",
+    "adresse": "89 rue du Faubourg Saint-Honoré",
+    "voie": "rue du Faubourg Saint-Honoré",
+    "ville": "Paris",
+    "pays": "France"
 }

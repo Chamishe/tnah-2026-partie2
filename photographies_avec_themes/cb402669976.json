@@ -1,7 +1,8 @@
 {
-    "entites_geographiques": [
-        "Boulevard de la Madeleine (Paris, France)",
-        "Rue de Caumartin (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Maison",
+    "adresse": "Boulevard de la Madeleine et Rue de Caumartin",
+    "voie_1": "Boulevard de la Madeleine",
+    "voie_2": "Rue de Caumartin",
+    "ville": "Paris",
+    "pays": "France"
 }

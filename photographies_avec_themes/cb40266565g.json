@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Rue du Mont-Cenis",
-        "Montmartre",
-        "Paris",
-        "France"
-    ]
+    "toponyme": null,
+    "voie": "rue du Mont-Cenis",
+    "ville": "Paris",
+    "pays": "France"
 }

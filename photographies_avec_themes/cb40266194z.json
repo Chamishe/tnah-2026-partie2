@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Gif-sur-Yvette",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Vieille ferme",
+    "ville": "Gif-sur-Yvette",
+    "département": "Essonne",
+    "pays": "France"
 }

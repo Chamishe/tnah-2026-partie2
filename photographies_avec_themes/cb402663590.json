@@ -1,16 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Église Saint-Louis",
-            "localisation": "Le Port-Marly"
-        },
-        {
-            "entite": "Le Port-Marly",
-            "localisation": "Yvelines"
-        },
-        {
-            "entite": "Yvelines",
-            "localisation": "France"
-        }
-    ]
+    "toponyme": "Église Saint-Louis",
+    "voie": null,
+    "ville": "Le Port-Marly",
+    "département": "Yvelines",
+    "pays": "France"
 }

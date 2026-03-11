@@ -1,24 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Fontaine de la Petite Halle",
-            "localisation": "Paris, France"
-        },
-        {
-            "entite": "Rue de Montreuil",
-            "localisation": "Paris, France"
-        },
-        {
-            "entite": "Rue du Faubourg-Saint-Antoine",
-            "localisation": "Paris, France"
-        },
-        {
-            "entite": "Faubourg Saint-Antoine",
-            "localisation": "Paris, France"
-        },
-        {
-            "entite": "Paris",
-            "localisation": "France"
-        }
-    ]
+    "toponyme": "Fontaine de la Petite Halle",
+    "voie": "rue du Faubourg-Saint-Antoine",
+    "adresse": "184 rue du Faubourg-Saint-Antoine",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Denys",
-        "Arcueil",
-        "Val-de-Marne",
-        "France"
-    ]
+    "toponyme": "église Saint-Denys",
+    "voie": null,
+    "ville": "Arcueil",
+    "département": "Val-de-Marne",
+    "pays": "France"
 }

@@ -1,20 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Église Saint-Denys",
-            "precision": "bâtiment"
-        },
-        {
-            "entite": "Arcueil",
-            "precision": "commune"
-        },
-        {
-            "entite": "Val-de-Marne",
-            "precision": "département"
-        },
-        {
-            "entite": "France",
-            "precision": "pays"
-        }
-    ]
+    "toponyme": "Église Saint-Denys",
+    "voie": "Église Saint-Denys",
+    "ville": "Arcueil",
+    "département": "Val-de-Marne",
+    "pays": "France"
 }

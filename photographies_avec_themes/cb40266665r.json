@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Quai de la Loire",
-        "Bassin de la Villette",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Bassin de la Villette",
+    "voie": "Quai de la Loire",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,32 +1,8 @@
 {
-    "entites_geographiques": [
-        {
-            "type": "adresse",
-            "nom": "46, Rue de la Légion d'Honneur"
-        },
-        {
-            "type": "voie",
-            "nom": "Rue de la Légion d'Honneur"
-        },
-        {
-            "type": "quartier",
-            "nom": "Saint-Denis"
-        },
-        {
-            "type": "ville",
-            "nom": "Saint-Denis"
-        },
-        {
-            "type": "département",
-            "nom": "Seine-Saint-Denis"
-        },
-        {
-            "type": "région",
-            "nom": "Île-de-France"
-        },
-        {
-            "type": "pays",
-            "nom": "France"
-        }
-    ]
+    "toponyme": "Ancien couvent des Carmelites",
+    "adresse": "46 rue de la Légion d'Honneur",
+    "voie": "rue de la Légion d'Honneur",
+    "quartier": "Saint-Denis",
+    "ville": "Paris",
+    "pays": "France"
 }

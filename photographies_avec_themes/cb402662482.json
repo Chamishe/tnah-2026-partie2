@@ -1,5 +1,5 @@
 {
-    "entites_geographiques": [
-        "Massy (Essonne, France)"
-    ]
+    "ville": "Massy",
+    "département": "Essonne",
+    "pays": "France"
 }

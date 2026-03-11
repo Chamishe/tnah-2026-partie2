@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "Grand Trianon",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Grand Trianon",
+    "bâtiment": "Grand Trianon",
+    "lieu_dit": "Les Fossés",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Germain de Charonne",
-        "Rue de Bagnolet",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Église Saint-Germain de Charonne",
+    "voie": "rue de Bagnolet",
+    "ville": "Paris",
+    "pays": "France"
 }

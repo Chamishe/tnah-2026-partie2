@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Grand Trianon",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Grand Trianon",
+    "batiment": "Entrée du Grand Trianon",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

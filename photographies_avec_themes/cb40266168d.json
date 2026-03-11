@@ -1,28 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Jardins du château de Versailles",
-            "type": "jardin"
-        },
-        {
-            "entite": "Parc du château de Versailles",
-            "type": "parc"
-        },
-        {
-            "entite": "Château de Versailles",
-            "type": "château"
-        },
-        {
-            "entite": "Versailles",
-            "type": "ville"
-        },
-        {
-            "entite": "Yvelines",
-            "type": "département"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Parc du château",
+    "lieu": "Jardins du château",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

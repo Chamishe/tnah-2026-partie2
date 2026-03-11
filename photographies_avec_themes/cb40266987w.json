@@ -1,20 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "17 Rue Laffitte",
-            "type": "adresse"
-        },
-        {
-            "entite": "Rue Laffitte",
-            "type": "rue"
-        },
-        {
-            "entite": "Paris",
-            "type": "ville"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Palais de la Reine Hortense",
+    "adresse": "17 rue Laffitte",
+    "voie": "rue Laffitte",
+    "ville": "Paris",
+    "pays": "France"
 }

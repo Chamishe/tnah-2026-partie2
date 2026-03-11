@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Place de l'Eglise",
-        "Bievre",
-        "France"
-    ]
+    "toponyme": "Place de l'Église",
+    "voie": "Place de l'Église",
+    "ville": "Bièvres",
+    "pays": "France"
 }

@@ -1,6 +1,6 @@
 {
-    "entites_geographiques": [
-        "Canal Saint-Martin (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Canal Saint-Martin",
+    "voie": "Canal Saint-Martin",
+    "ville": "Paris",
+    "pays": "France"
 }

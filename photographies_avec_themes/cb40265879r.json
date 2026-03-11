@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Grand Trianon",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Grand Trianon",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

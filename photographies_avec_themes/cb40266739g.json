@@ -1,7 +1,6 @@
 {
-    "entites_geographiques": [
-        "Cimetière du Père-Lachaise",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Tombe de Kellermann",
+    "cimetière": "Cimetière du Père-Lachaise",
+    "ville": "Paris",
+    "pays": "France"
 }

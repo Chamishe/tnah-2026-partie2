@@ -1,16 +1,6 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "Ancien Couvent des Carmelites",
-            "type": "bâtiment"
-        },
-        {
-            "nom": "Saint-Denis",
-            "type": "ville"
-        },
-        {
-            "nom": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Ancien Couvent des Carmelites",
+    "lieu_dit": "Maison où Louis XV eut une entrevue avec Louise de France",
+    "ville": "Saint-Denis",
+    "pays": "France"
 }

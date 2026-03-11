@@ -1,7 +1,5 @@
 {
-    "entites_geographiques": [
-        "Palais Bourbon",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Palais Bourbon",
+    "ville": "Paris",
+    "pays": "France"
 }

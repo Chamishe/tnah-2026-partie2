@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Place d'Armes",
-        "Saint-Ouen",
-        "Seine-Saint-Denis",
-        "France"
-    ]
+    "toponyme": "vieille maison - Place d'Armes",
+    "voie": "Place d'Armes",
+    "ville": "Saint-Ouen",
+    "département": "Seine-Saint-Denis",
+    "pays": "France"
 }

@@ -1,11 +1,8 @@
 {
-    "entites_geographiques": [
-        "Bassin du Nord",
-        "Jardins du château de Versailles",
-        "Parc du château de Versailles",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Bassin du Nord",
+    "lieu": "Jardins du château de Versailles",
+    "voie": null,
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

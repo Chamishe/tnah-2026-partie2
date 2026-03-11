@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Château de Versailles",
+    "bâtiment": "Escalier du Château",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

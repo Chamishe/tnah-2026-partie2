@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "carré des généraux (Cimetière du Père-Lachaise)",
-        "Cimetière du Père-Lachaise",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "carré des généraux",
+    "cimetière": "Père-Lachaise",
+    "ville": "Paris",
+    "pays": "France"
 }

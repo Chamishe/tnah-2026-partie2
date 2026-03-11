@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Petit Trianon",
-        "Trianon",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Trianon sous Bois",
+    "batiment": "Petit Trianon",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

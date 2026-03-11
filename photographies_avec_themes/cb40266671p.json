@@ -1,6 +1,6 @@
 {
-    "entites_geographiques": [
-        "Rue des Cascades (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Ancien regard",
+    "voie": "rue des Cascades",
+    "ville": "Paris",
+    "pays": "France"
 }

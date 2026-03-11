@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Bougival",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Marly la Machine",
+    "lieu_dit": "château de Bougival",
+    "ville": "Bougival",
+    "departement": "Yvelines",
+    "pays": "France"
 }

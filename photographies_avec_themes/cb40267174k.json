@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Quai Voltaire",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Port des Saints-Pères",
+    "voie": "Quai Voltaire",
+    "pont": "Pont Royal",
+    "ville": "Paris",
+    "pays": "France"
 }

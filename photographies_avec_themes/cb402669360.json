@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue du Faubourg Saint-Honoré",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Hôtel de La Vaupalière - Aujourd'hui Baron Gérard",
+    "adresse": "85 Faubourg Saint-Honoré",
+    "voie": "rue du Faubourg Saint-Honoré",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Rue du Faubourg Saint-Honoré",
-        "Ancien village du Roule",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "ancien village du Roule",
+    "adresse": "161 Faubourg Saint-Honoré",
+    "voie": "rue du Faubourg Saint-Honoré",
+    "ville": "Paris",
+    "pays": "France"
 }

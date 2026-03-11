@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Martin",
-        "Longjumeau",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Église Saint-Martin",
+    "ville": "Longjumeau",
+    "département": "Essonne",
+    "pays": "France"
 }

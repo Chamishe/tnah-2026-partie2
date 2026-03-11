@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Orangerie (Versailles, Yvelines, France)",
-        "Château de Versailles (Versailles, Yvelines, France)",
-        "Versailles (Yvelines, France)",
-        "Yvelines (France)",
-        "France"
-    ]
+    "toponyme": "Orangerie",
+    "batiment": "Château de Versailles",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

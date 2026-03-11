@@ -1,23 +1,6 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Rue de Picpus",
-            "precision": "voie",
-            "localisation": {
-                "ville": "Paris",
-                "pays": "France"
-            }
-        },
-        {
-            "entite": "Paris",
-            "precision": "ville",
-            "localisation": {
-                "pays": "France"
-            }
-        },
-        {
-            "entite": "France",
-            "precision": "pays"
-        }
-    ]
+    "adresse": "53 rue de Picpus",
+    "voie": "rue de Picpus",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,29 +1,9 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Parterre d'eau",
-            "type": "élément du jardin",
-            "localisation": "Versailles (Yvelines, France)"
-        },
-        {
-            "entite": "Jardins du château de Versailles",
-            "type": "jardins",
-            "localisation": "Versailles (Yvelines, France)"
-        },
-        {
-            "entite": "Parc du château de Versailles",
-            "type": "parc",
-            "localisation": "Versailles (Yvelines, France)"
-        },
-        {
-            "entite": "Versailles",
-            "type": "ville",
-            "localisation": "Yvelines, France"
-        },
-        {
-            "entite": "Seine",
-            "type": "cours d'eau",
-            "localisation": "France"
-        }
-    ]
+    "toponyme": "Parterre d'eau",
+    "lieu": "Jardins du château de Versailles",
+    "voie": "Parc du château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France",
+    "cours_d_eau": "Seine"
 }

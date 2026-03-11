@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "Porte 6 Avenue de Paris",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Porte 6",
+    "adresse": "6 Avenue de Paris",
+    "voie": "Avenue de Paris",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

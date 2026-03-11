@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Église Notre-Dame de l'Assomption",
-        "Saulx-les-Chartreux",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Église Notre-Dame de l'Assomption",
+    "lieu-dit": "Saulx-les-Chartreux",
+    "département": "Essonne",
+    "ville": "Saulx-les-Chartreux",
+    "pays": "France"
 }

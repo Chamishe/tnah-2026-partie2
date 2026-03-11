@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "27 Avenue des Gobelins",
-        "Avenue des Gobelins",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Cour des Rames",
+    "adresse": "27 avenue des Gobelins",
+    "voie": "avenue des Gobelins",
+    "ville": "Paris",
+    "pays": "France"
 }

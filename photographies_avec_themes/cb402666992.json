@@ -1,6 +1,8 @@
 {
-    "entites_geographiques": [
-        "Rue Haxo (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "villa des otages",
+    "voie": "rue Haxo",
+    "adresse": "85 rue Haxo",
+    "quartier": "Belleville",
+    "ville": "Paris",
+    "pays": "France"
 }

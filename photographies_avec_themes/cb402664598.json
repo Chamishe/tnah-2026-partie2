@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Parterre du Nord",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Château de Versailles",
+    "parcelle": "Parterre du Nord",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

@@ -1,16 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Église Sainte-Marie-Madeleine",
-            "localisation": "Massy"
-        },
-        {
-            "entite": "Massy",
-            "localisation": "Essonne"
-        },
-        {
-            "entite": "Essonne",
-            "localisation": "France"
-        }
-    ]
+    "toponyme": "Église Sainte-Marie-Madeleine",
+    "lieu_dit": "Massy-Verrières",
+    "ville": "Massy",
+    "departement": "Essonne",
+    "pays": "France"
 }

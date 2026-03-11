@@ -1,5 +1,6 @@
 {
-    "entites_geographiques": [
-        "Marché Popincourt"
-    ]
+    "toponyme": "Marché Popincourt",
+    "quartier": "Popincourt",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,9 +1,8 @@
 {
-    "entites_geographiques": [
-        "11 Rue d'Anjou",
-        "Rue d'Anjou",
-        "8e arrondissement de Paris",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Hôtel du Maréchal de Contades",
+    "adresse": "11 Rue d'Anjou",
+    "voie": "Rue d'Anjou",
+    "ville": "Paris",
+    "arrondissement": "8e arrondissement",
+    "pays": "France"
 }

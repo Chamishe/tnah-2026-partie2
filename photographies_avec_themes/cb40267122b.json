@@ -1,6 +1,6 @@
 {
-    "entites_geographiques": [
-        "Rue Saint-Bernard (Paris, France)",
-        "Paris (France)"
-    ]
+    "toponyme": "Ancien cimetière Sainte-Marguerite",
+    "voie": "rue Saint-Bernard",
+    "ville": "Paris",
+    "pays": "France"
 }

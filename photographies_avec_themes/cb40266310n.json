@@ -1,7 +1,7 @@
 {
-    "entites_geographiques": [
-        "Saulx-les-Chartreux",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Saulx-les-Chartreux",
+    "commune": "Saulx-les-Chartreux",
+    "département": "Essonne",
+    "ville": "Paris",
+    "pays": "France"
 }

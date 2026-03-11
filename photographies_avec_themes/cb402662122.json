@@ -1,6 +1,6 @@
 {
-    "entites_geographiques": [
-        "Juvisy",
-        "France"
-    ]
+    "toponyme": "Château de Juvisy",
+    "ville": "Juvisy-sur-Orge",
+    "département": "Essonne",
+    "pays": "France"
 }

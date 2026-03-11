@@ -1,11 +1,7 @@
 {
-    "entites_geographiques": [
-        "Fontaine du Point-du-Jour",
-        "Jardins du château de Versailles",
-        "Parc du château de Versailles",
-        "Château de Versailles",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": "Fontaine du Point-du-Jour",
+    "lieu": "Jardins du château de Versailles",
+    "ville": "Versailles",
+    "département": "Yvelines",
+    "pays": "France"
 }

@@ -1,7 +1,8 @@
 {
-    "entites_geographiques": [
-        "Place Charles-Dullin (Paris, France)",
-        "Paris (France)",
-        "France"
-    ]
+    "toponyme": "Théâtre Montmartre",
+    "adresse": "Place Dancourt",
+    "voie": "Place Charles-Dullin",
+    "quartier": "Montmartre",
+    "ville": "Paris",
+    "pays": "France"
 }

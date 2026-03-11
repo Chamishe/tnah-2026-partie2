@@ -1,7 +1,5 @@
 {
-    "entites_geographiques": [
-        "Gif-sur-Yvette",
-        "Essonne",
-        "France"
-    ]
+    "ville": "Gif-sur-Yvette",
+    "departement": "Essonne",
+    "pays": "France"
 }

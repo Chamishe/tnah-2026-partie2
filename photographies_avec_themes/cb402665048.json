@@ -1,8 +1,6 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Pierre de Montmartre",
-        "Montmartre",
-        "Paris",
-        "France"
-    ]
+    "toponyme": "Église Saint-Pierre de Montmartre",
+    "quartier": "Montmartre",
+    "ville": "Paris",
+    "pays": "France"
 }

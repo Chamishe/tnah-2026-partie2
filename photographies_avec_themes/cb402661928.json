@@ -1,9 +1,7 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Rémi",
-        "Place de l'Église",
-        "Gif-sur-Yvette",
-        "Essonne",
-        "France"
-    ]
+    "toponyme": "Place de l'Église",
+    "édifice": "Église Saint-Rémi",
+    "ville": "Gif-sur-Yvette",
+    "département": "Essonne",
+    "pays": "France"
 }

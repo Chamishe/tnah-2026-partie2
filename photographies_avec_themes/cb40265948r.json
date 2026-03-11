@@ -1,8 +1,8 @@
 {
-    "entites_geographiques": [
-        "3 Rue Carnot",
-        "Versailles",
-        "Yvelines",
-        "France"
-    ]
+    "toponyme": null,
+    "adresse": "3 Rue Carnot",
+    "voie": "Rue Carnot",
+    "ville": "Versailles",
+    "departement": "Yvelines",
+    "pays": "France"
 }

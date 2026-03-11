@@ -1,6 +1,6 @@
 {
-    "entites_geographiques": [
-        "Église Saint-Jacques le Mineur et Saint-Philippe (Ballainvilliers, Essonne, France)",
-        "Ballainvilliers (Essonne, France)"
-    ]
+    "toponyme": "Église Saint-Jacques le Mineur et Saint-Philippe",
+    "ville": "Ballainvilliers",
+    "département": "Essonne",
+    "pays": "France"
 }

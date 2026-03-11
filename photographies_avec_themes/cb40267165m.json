@@ -1,24 +1,9 @@
 {
-    "entites_geographiques": [
-        {
-            "entite": "Rue de Verneuil 13 et 15",
-            "type": "adresse"
-        },
-        {
-            "entite": "Rue de Verneuil",
-            "type": "voie"
-        },
-        {
-            "entite": "10ème arrondissement",
-            "type": "arrondissement"
-        },
-        {
-            "entite": "Paris",
-            "type": "ville"
-        },
-        {
-            "entite": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Hôtel de Bouville",
+    "adresse": "13 et 15 rue de Verneuil",
+    "voie": "rue de Verneuil",
+    "arrondissement": "10ème arrondissement",
+    "ancienne_fonction": "ancienne mairie",
+    "ville": "Paris",
+    "pays": "France"
 }

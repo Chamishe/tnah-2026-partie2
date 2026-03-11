@@ -1,6 +1,5 @@
 {
-    "entites_geographiques": [
-        "Rue du Mont-Cenis (Paris, France)",
-        "Paris (France)"
-    ]
+    "voie": "rue du Mont-Cenis",
+    "ville": "Paris",
+    "pays": "France"
 }

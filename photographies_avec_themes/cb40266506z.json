@@ -1,5 +1,6 @@
 {
-    "entites_geographiques": [
-        "Montmartre"
-    ]
+    "toponyme": "Calvaire de Montmartre",
+    "quartier": "Montmartre",
+    "ville": "Paris",
+    "pays": "France"
 }

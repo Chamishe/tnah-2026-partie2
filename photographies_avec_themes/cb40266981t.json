@@ -1,20 +1,7 @@
 {
-    "entites_geographiques": [
-        {
-            "nom": "26 Rue de Penthièvre",
-            "type": "adresse"
-        },
-        {
-            "nom": "Rue de Penthièvre",
-            "type": "rue"
-        },
-        {
-            "nom": "Paris",
-            "type": "ville"
-        },
-        {
-            "nom": "France",
-            "type": "pays"
-        }
-    ]
+    "toponyme": "Maison de Benjamin Franklin",
+    "adresse": "26 rue de Penthièvre",
+    "voie": "rue de Penthièvre",
+    "ville": "Paris",
+    "pays": "France"
 }

@@ -1,8 +1,7 @@
 {
-    "entites_geographiques": [
-        "Notre Dame de la Nolle",
-        "Saint-Ouen",
-        "Seine-Saint-Denis",
-        "France"
-    ]
+    "toponyme": "Terrasse des Chevaliers de Notre-Dame de la Nolle",
+    "lieu_dit": "Maison",
+    "ville": "Saint-Ouen",
+    "departement": "Seine-Saint-Denis",
+    "pays": "France"
 }

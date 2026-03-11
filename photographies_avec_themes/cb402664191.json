@@ -1,6 +1,7 @@
 {
-    "entites_geographiques": [
-        "Parc de Rambouillet",
-        "Seine-et-Oise"
-    ]
+    "toponyme": "Parc de Rambouillet",
+    "ville": "Rambouillet",
+    "département": "Yvelines",
+    "région": "Île-de-France",
+    "pays": "France"
 }
